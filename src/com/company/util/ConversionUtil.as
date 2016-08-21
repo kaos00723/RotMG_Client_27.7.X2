@@ -114,15 +114,15 @@ public class ConversionUtil {
         }
     }
 
-    public static function mapParseFloat(_arg_1:*, ..._args):Number {
+    public static function mapParseFloat(_arg_1:*, ... rest):Number {
         return (parseFloat(_arg_1));
     }
 
-    public static function mapParseInt(_arg_1:*, ..._args):Number {
+    public static function mapParseInt(_arg_1:*, ... rest):Number {
         return (parseInt(_arg_1));
     }
 
-    public static function mapParseCharCode(_arg_1:*, ..._args):Number {
+    public static function mapParseCharCode(_arg_1:*, ... rest):Number {
         return (String(_arg_1).charCodeAt());
     }
 

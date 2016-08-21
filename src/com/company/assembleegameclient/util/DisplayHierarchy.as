@@ -11,10 +11,10 @@ public class DisplayHierarchy {
         return (_arg_1);
     }
 
-    public static function getParentWithTypeArray(_arg_1:DisplayObject, ..._args):DisplayObject {
+    public static function getParentWithTypeArray(_arg_1:DisplayObject, ... rest):DisplayObject {
         var _local_3:Class;
         while (_arg_1) {
-            for each (_local_3 in _args) {
+            for each (_local_3 in rest) {
                 if ((_arg_1 is _local_3)) {
                     return (_arg_1);
                 }

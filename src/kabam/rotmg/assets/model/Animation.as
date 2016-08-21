@@ -38,11 +38,11 @@ public class Animation extends Sprite {
         this.timer.delay = _arg_1;
     }
 
-    public function setFrames(..._args):void {
+    public function setFrames(... rest):void {
         var _local_2:BitmapData;
         this.frames.length = 0;
         this.index = 0;
-        for each (_local_2 in _args) {
+        for each (_local_2 in rest) {
             this.count = this.frames.push(_local_2);
         }
         if (this.started) {

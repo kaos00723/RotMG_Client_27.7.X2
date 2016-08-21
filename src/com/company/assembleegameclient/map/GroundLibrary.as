@@ -40,7 +40,7 @@ public class GroundLibrary {
         return (typeToTextureData_[_arg_1].getTexture(_arg_2));
     }
 
-    public static function getColor(_arg_1:int):uint {
+    public static function getColor(_arg_1:*):uint {
         var _local_2:XML;
         var _local_3:uint;
         var _local_4:BitmapData;

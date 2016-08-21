@@ -7,16 +7,16 @@ public class DeferredQueueSignal extends Signal {
     private var data:Array;
     private var log:Boolean = true;
 
-    public function DeferredQueueSignal(..._args) {
+    public function DeferredQueueSignal(... rest) {
         this.data = [];
-        super(_args);
+        super(rest);
     }
 
-    override public function dispatch(..._args):void {
+    override public function dispatch(... rest):void {
         if (this.log) {
-            this.data.push(_args);
+            this.data.push(rest);
         }
-        super.dispatch.apply(this, _args);
+        super.dispatch.apply(this, rest);
     }
 
     override public function add(_arg_1:Function):ISlot {

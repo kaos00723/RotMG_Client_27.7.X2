@@ -47,7 +47,7 @@ public class TileRedrawer {
 
 
     public static function redraw(_arg_1:Square, _arg_2:Boolean):BitmapData {
-        var _local_3:ByteArray;
+        var _local_3:*;
         var _local_5:BitmapData;
         if (Parameters.blendType_ == 0) {
             return (null);

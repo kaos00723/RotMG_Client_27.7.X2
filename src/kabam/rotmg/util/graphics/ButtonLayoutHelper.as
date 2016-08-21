@@ -6,14 +6,14 @@ import flash.geom.Rectangle;
 public class ButtonLayoutHelper {
 
 
-    public function layout(_arg_1:int, ..._args):void {
-        var _local_3:int = _args.length;
+    public function layout(_arg_1:int, ... rest):void {
+        var _local_3:int = rest.length;
         switch (_local_3) {
             case 1:
-                this.centerButton(_arg_1, _args[0]);
+                this.centerButton(_arg_1, rest[0]);
                 return;
             case 2:
-                this.twoButtons(_arg_1, _args[0], _args[1]);
+                this.twoButtons(_arg_1, rest[0], rest[1]);
                 return;
             default:
                 throw (new IllegalOperationError("Currently unable to layout more than 2 buttons"));

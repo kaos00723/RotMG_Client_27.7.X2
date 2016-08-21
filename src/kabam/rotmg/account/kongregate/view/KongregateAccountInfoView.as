@@ -81,11 +81,11 @@ public class KongregateAccountInfoView extends Sprite implements AccountInfoView
         this.accountText.x = this.registerButton.getBounds(this).left;
     }
 
-    private function addElements(..._args):void {
+    private function addElements(... rest):void {
         var _local_3:DisplayObject;
-        var _local_2:int = _args.length;
+        var _local_2:int = rest.length;
         while (_local_2--) {
-            _local_3 = _args[_local_2];
+            _local_3 = rest[_local_2];
             addChild(_local_3);
         }
     }

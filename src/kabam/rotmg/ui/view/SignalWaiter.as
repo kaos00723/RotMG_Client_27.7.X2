@@ -22,9 +22,9 @@ public class SignalWaiter {
         return (this);
     }
 
-    public function pushArgs(..._args):SignalWaiter {
+    public function pushArgs(... rest):SignalWaiter {
         var _local_2:Signal;
-        for each (_local_2 in _args) {
+        for each (_local_2 in rest) {
             this.push(_local_2);
         }
         return (this);

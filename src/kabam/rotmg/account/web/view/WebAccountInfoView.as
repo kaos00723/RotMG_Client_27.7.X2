@@ -117,18 +117,18 @@ public class WebAccountInfoView extends Sprite implements AccountInfoView {
         this.addAndAlignHorizontally(this.accountText, this.makeDividerText(), this.registerButton, this.makeDividerText(), this.loginButton);
     }
 
-    private function addAndAlignHorizontally(..._args):void {
+    private function addAndAlignHorizontally(... rest):void {
         var _local_2:DisplayObject;
         var _local_3:int;
         var _local_4:int;
         var _local_5:DisplayObject;
-        for each (_local_2 in _args) {
+        for each (_local_2 in rest) {
             addChild(_local_2);
         }
         _local_3 = 0;
-        _local_4 = _args.length;
+        _local_4 = rest.length;
         while (_local_4--) {
-            _local_5 = _args[_local_4];
+            _local_5 = rest[_local_4];
             _local_5.x = _local_3;
             _local_3 = (_local_3 - _local_5.width);
         }

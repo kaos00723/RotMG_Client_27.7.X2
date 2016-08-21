@@ -10,10 +10,10 @@ public class GroupMappedSignal extends Signal {
     private var eventType:String;
     private var mappedTargets:Dictionary;
 
-    public function GroupMappedSignal(_arg_1:String, ..._args) {
+    public function GroupMappedSignal(_arg_1:String, ... rest) {
         this.eventType = _arg_1;
         this.mappedTargets = new Dictionary(true);
-        super(_args);
+        super(rest);
     }
 
     public function map(_arg_1:IEventDispatcher, _arg_2:*):void {

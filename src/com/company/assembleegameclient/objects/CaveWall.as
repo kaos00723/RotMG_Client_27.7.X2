@@ -206,16 +206,16 @@ public class CaveWall extends ConnectedObject {
         return (null);
     }
 
-    protected function faceHelper(_arg_1:Vector3D, _arg_2:BitmapData, ..._args):void {
+    protected function faceHelper(_arg_1:Vector3D, _arg_2:BitmapData, ... rest):void {
         var _local_5:Vector3D;
         var _local_6:int;
         var _local_7:int;
         var _local_4:int = (obj3D_.vL_.length / 3);
-        for each (_local_5 in _args) {
+        for each (_local_5 in rest) {
             obj3D_.vL_.push(_local_5.x, _local_5.y, _local_5.z);
         }
         _local_6 = obj3D_.faces_.length;
-        if (_args.length == 4) {
+        if (rest.length == 4) {
             obj3D_.uvts_.push(0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0);
             if (Math.random() < 0.5) {
                 obj3D_.faces_.push(new ObjectFace3D(obj3D_, new <int>[_local_4, (_local_4 + 1), (_local_4 + 3)]), new ObjectFace3D(obj3D_, new <int>[(_local_4 + 1), (_local_4 + 2), (_local_4 + 3)]));
@@ -225,22 +225,22 @@ public class CaveWall extends ConnectedObject {
             }
         }
         else {
-            if (_args.length == 3) {
+            if (rest.length == 3) {
                 obj3D_.uvts_.push(0, 0, 0, 0, 1, 0, 1, 1, 0);
                 obj3D_.faces_.push(new ObjectFace3D(obj3D_, new <int>[_local_4, (_local_4 + 1), (_local_4 + 2)]));
             }
             else {
-                if (_args.length == 5) {
+                if (rest.length == 5) {
                     obj3D_.uvts_.push(0.2, 0, 0, 0.8, 0, 0, 1, 0.2, 0, 1, 0.8, 0, 0, 0.8, 0);
                     obj3D_.faces_.push(new ObjectFace3D(obj3D_, new <int>[_local_4, (_local_4 + 1), (_local_4 + 2), (_local_4 + 3), (_local_4 + 4)]));
                 }
                 else {
-                    if (_args.length == 6) {
+                    if (rest.length == 6) {
                         obj3D_.uvts_.push(0, 0, 0, 0.2, 0, 0, 1, 0.2, 0, 1, 0.8, 0, 0, 0.8, 0, 0, 0.2, 0);
                         obj3D_.faces_.push(new ObjectFace3D(obj3D_, new <int>[_local_4, (_local_4 + 1), (_local_4 + 2), (_local_4 + 3), (_local_4 + 4), (_local_4 + 5)]));
                     }
                     else {
-                        if (_args.length == 8) {
+                        if (rest.length == 8) {
                             obj3D_.uvts_.push(0, 0, 0, 0.2, 0, 0, 1, 0.2, 0, 1, 0.8, 0, 0.8, 1, 0, 0.2, 1, 0, 0, 0.8, 0, 0, 0.2, 0);
                             obj3D_.faces_.push(new ObjectFace3D(obj3D_, new <int>[_local_4, (_local_4 + 1), (_local_4 + 2), (_local_4 + 3), (_local_4 + 4), (_local_4 + 5), (_local_4 + 6), (_local_4 + 7)]));
                         }

@@ -27,11 +27,11 @@ public class Message {
         return (this.formatToString("MESSAGE", "id"));
     }
 
-    protected function formatToString(_arg_1:String, ..._args):String {
+    protected function formatToString(_arg_1:String, ... rest):String {
         var _local_3:String = ("[" + _arg_1);
         var _local_4:int;
-        while (_local_4 < _args.length) {
-            _local_3 = (_local_3 + ((((" " + _args[_local_4]) + '="') + this[_args[_local_4]]) + '"'));
+        while (_local_4 < rest.length) {
+            _local_3 = (_local_3 + ((((" " + rest[_local_4]) + '="') + this[rest[_local_4]]) + '"'));
             _local_4++;
         }
         return ((_local_3 + "]"));

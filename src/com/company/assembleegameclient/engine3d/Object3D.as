@@ -41,7 +41,7 @@ public class Object3D {
 
     public static function getObject(_arg_1:String):Object3D {
         var _local_2:Model3D = Model3D.getModel(_arg_1);
-        return (new (Object3D)(_local_2));
+        return (new Object3D(_local_2));
     }
 
 
