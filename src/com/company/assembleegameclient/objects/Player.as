@@ -159,7 +159,7 @@ public class Player extends Character {
     public static function fromPlayerXML(_arg_1:String, _arg_2:XML):Player {
         var _local_3:int = int(_arg_2.ObjectType);
         var _local_4:XML = ObjectLibrary.xmlLibrary_[_local_3];
-        var _local_5:Player = new (Player)(_local_4);
+        var _local_5:Player = new Player(_local_4);
         _local_5.name_ = _arg_1;
         _local_5.level_ = int(_arg_2.Level);
         _local_5.exp_ = int(_arg_2.Exp);
