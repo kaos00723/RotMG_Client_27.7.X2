@@ -42,6 +42,10 @@ public class WebAccount implements Account {
         return (((this.password) || ("")));
     }
 
+    public function getToken():String {
+        return ("");
+    }
+
     public function getCredentials():Object {
         return ({
             "guid": this.getUserId(),
@@ -50,10 +54,10 @@ public class WebAccount implements Account {
     }
 
     public function isRegistered():Boolean {
-        return (!((this.getPassword() == "")));
+        return (((!((this.getPassword() == ""))) || (!((this.getToken() == "")))));
     }
 
-    public function updateUser(_arg_1:String, _arg_2:String):void {
+    public function updateUser(_arg_1:String, _arg_2:String, _arg_3:String):void {
         var _local_3:SharedObject;
         this.userId = _arg_1;
         this.password = _arg_2;
@@ -68,7 +72,7 @@ public class WebAccount implements Account {
     }
 
     public function clear():void {
-        this.updateUser(GUID.create(), null);
+        this.updateUser(GUID.create(), null, null);
         Parameters.sendLogin_ = true;
         Parameters.data_.charIdUseMap = {};
         Parameters.save();

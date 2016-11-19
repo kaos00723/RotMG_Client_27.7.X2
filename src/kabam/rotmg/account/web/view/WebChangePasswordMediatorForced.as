@@ -83,7 +83,7 @@ public class WebChangePasswordMediatorForced extends Mediator {
             this.onError(_arg_2);
         }
         else {
-            this.account.updateUser(this.account.getUserId(), this.newPassword);
+            this.account.updateUser(this.account.getUserId(), this.newPassword, this.account.getToken());
             this.closeDialogs.dispatch();
         }
     }

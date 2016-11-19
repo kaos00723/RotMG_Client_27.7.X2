@@ -22,7 +22,7 @@ public class MaskedImageSet {
         }
         var _local_7:int;
         while (_local_7 < _local_5.images_.length) {
-            this.images_.push(new MaskedImage(_local_5.images_[_local_7], (((_local_6 == null)) ? null : _local_6.images_[_local_7])));
+            this.images_.push(new MaskedImage(_local_5.images_[_local_7], (((_local_6 == null)) ? null : (((_local_7 >= _local_6.images_.length)) ? null : _local_6.images_[_local_7]))));
             _local_7++;
         }
     }

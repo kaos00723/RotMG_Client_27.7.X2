@@ -2067,6 +2067,7 @@
       </Projectile>
    </Object>
    <Object type="0x754d" id="lod White Dragon Orb">
+      <DisplayId>{lairOfDraconis.lod_White_Dragon_Orb}</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -2147,7 +2148,6 @@
          <Size>80</Size>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{lairOfDraconis.lod_White_Dragon_Orb}</DisplayId>
    </Object>
    <Object type="0x754e" id="Ivory Wyvern Portal">
       <Class>Portal</Class>

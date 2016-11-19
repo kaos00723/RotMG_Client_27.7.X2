@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xmltoken object type used range:  0xff05 - 0xffd1     ?>
+<Objects>
+   <Object type="0xff05" id="Halloween Candy Token x 1">
+      <Displayid>Halloween Candy Token x 1</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_1_-_Can_be_stacked_up_to_50_times,_just_c}</Description>
+      <Quantity>1</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_1}</DisplayId>
+   </Object>
+   <Object type="0xff06" id="Halloween Candy Token x 2">
+      <Displayid>Halloween Candy Token x 2</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_2_-_Can_be_stacked_up_to_50_times,_just_c}</Description>
+      <Quantity>2</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_2}</DisplayId>
+   </Object>
+   <Object type="0xff07" id="Halloween Candy Token x 3">
+      <Displayid>Halloween Candy Token x 3</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_3_-_Can_be_stacked_up_to_50_times,_just_c}</Description>
+      <Quantity>3</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_3}</DisplayId>
+   </Object>
+   <Object type="0xff08" id="Halloween Candy Token x 4">
+      <Displayid>Halloween Candy Token x 4</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_4_-_Can_be_stacked_up_to_50_times,_just_c}</Description>
+      <Quantity>4</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_4}</DisplayId>
+   </Object>
+   <Object type="0xff09" id="Halloween Candy Token x 5">
+      <Displayid>Halloween Candy Token x 5</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_5_-_Can_be_stacked_up_to_50_times,_just_c}</Description>
+      <Quantity>5</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_5}</DisplayId>
+   </Object>
+   <Object type="0xff0a" id="Halloween Candy Token x 6">
+      <Displayid>Halloween Candy Token x 6</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_6_-_Can_be_stacked_up_to_50_times,_just_c}</Description>
+      <Quantity>6</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_6}</DisplayId>
+   </Object>
+   <Object type="0xff0b" id="Halloween Candy Token x 7">
+      <Displayid>Halloween Candy Token x 7</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_7_-_Can_be_stacked_up_to_50_times,_just_c}</Description>
+      <Quantity>7</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_7}</DisplayId>
+   </Object>
+   <Object type="0xff0c" id="Halloween Candy Token x 8">
+      <Displayid>Halloween Candy Token x 8</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_8_-_Can_be_stacked_up_to_50_times,_just_c}</Description>
+      <Quantity>8</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_8}</DisplayId>
+   </Object>
+   <Object type="0xff0d" id="Halloween Candy Token x 9">
+      <Displayid>Halloween Candy Token x 9</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_9_-_Can_be_stacked_up_to_50_times,_just_c}</Description>
+      <Quantity>9</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_9}</DisplayId>
+   </Object>
+   <Object type="0xff0e" id="Halloween Candy Token x 10">
+      <Displayid>Halloween Candy Token x 10</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_10_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>10</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_10}</DisplayId>
+   </Object>
+   <Object type="0xff0f" id="Halloween Candy Token x 11">
+      <Displayid>Halloween Candy Token x 1</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_11_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>11</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_11}</DisplayId>
+   </Object>
+   <Object type="0xff10" id="Halloween Candy Token x 12">
+      <Displayid>Halloween Candy Token x 12</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_12_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>12</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_12}</DisplayId>
+   </Object>
+   <Object type="0xff11" id="Halloween Candy Token x 13">
+      <Displayid>Halloween Candy Token x 13</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_13_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>13</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_13}</DisplayId>
+   </Object>
+   <Object type="0xff12" id="Halloween Candy Token x 14">
+      <Displayid>Halloween Candy Token x 4</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_14_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>14</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_14}</DisplayId>
+   </Object>
+   <Object type="0xff13" id="Halloween Candy Token x 15">
+      <Displayid>Halloween Candy Token x 15</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_15_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>15</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_15}</DisplayId>
+   </Object>
+   <Object type="0xff14" id="Halloween Candy Token x 16">
+      <Displayid>Halloween Candy Token x 16</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_16_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>16</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_16}</DisplayId>
+   </Object>
+   <Object type="0xff15" id="Halloween Candy Token x 17">
+      <Displayid>Halloween Candy Token x 17</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_17_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>17</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_17}</DisplayId>
+   </Object>
+   <Object type="0xff16" id="Halloween Candy Token x 18">
+      <Displayid>Halloween Candy Token x 18</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_18_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>18</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_18}</DisplayId>
+   </Object>
+   <Object type="0xff17" id="Halloween Candy Token x 19">
+      <Displayid>Halloween Candy Token x 19</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_19_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>19</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_19}</DisplayId>
+   </Object>
+   <Object type="0xff18" id="Halloween Candy Token x 20">
+      <Displayid>Halloween Candy Token x 20</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_20_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>20</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_20}</DisplayId>
+   </Object>
+   <Object type="0xff19" id="Halloween Candy Token x 21">
+      <Displayid>Halloween Candy Token x 21</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_21_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>21</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_21}</DisplayId>
+   </Object>
+   <Object type="0xff1a" id="Halloween Candy Token x 22">
+      <Displayid>Halloween Candy Token x 22</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_22_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>22</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_22}</DisplayId>
+   </Object>
+   <Object type="0xff1b" id="Halloween Candy Token x 23">
+      <Displayid>Halloween Candy Token x 23</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_23_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>23</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_23}</DisplayId>
+   </Object>
+   <Object type="0xff1c" id="Halloween Candy Token x 24">
+      <Displayid>Halloween Candy Token x 24</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_24_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>24</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_24}</DisplayId>
+   </Object>
+   <Object type="0xff1d" id="Halloween Candy Token x 25">
+      <Displayid>Halloween Candy Token x 25</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_25_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>25</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_25}</DisplayId>
+   </Object>
+   <Object type="0xff1e" id="Halloween Candy Token x 26">
+      <Displayid>Halloween Candy Token x 26</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_26_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>26</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_26}</DisplayId>
+   </Object>
+   <Object type="0xff1f" id="Halloween Candy Token x 27">
+      <Displayid>Halloween Candy Token x 27</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_27_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>27</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_27}</DisplayId>
+   </Object>
+   <Object type="0xff20" id="Halloween Candy Token x 28">
+      <Displayid>Halloween Candy Token x 28</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_28_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>28</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_28}</DisplayId>
+   </Object>
+   <Object type="0xff21" id="Halloween Candy Token x 29">
+      <Displayid>Halloween Candy Token x 29</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_29_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>29</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_29}</DisplayId>
+   </Object>
+   <Object type="0xff22" id="Halloween Candy Token x 30">
+      <Displayid>Halloween Candy Token x 30</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_30_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>30</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_30}</DisplayId>
+   </Object>
+   <Object type="0xff23" id="Halloween Candy Token x 31">
+      <Displayid>Halloween Candy Token x 31</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_31_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>31</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_31}</DisplayId>
+   </Object>
+   <Object type="0xff24" id="Halloween Candy Token x 32">
+      <Displayid>Halloween Candy Token x 32</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_32_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>32</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_32}</DisplayId>
+   </Object>
+   <Object type="0xff25" id="Halloween Candy Token x 33">
+      <Displayid>Halloween Candy Token x 33</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_33_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>33</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_33}</DisplayId>
+   </Object>
+   <Object type="0xff26" id="Halloween Candy Token x 34">
+      <Displayid>Halloween Candy Token x 34</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_34_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>34</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_34}</DisplayId>
+   </Object>
+   <Object type="0xff27" id="Halloween Candy Token x 35">
+      <Displayid>Halloween Candy Token x 35</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_35_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>35</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_35}</DisplayId>
+   </Object>
+   <Object type="0xff28" id="Halloween Candy Token x 36">
+      <Displayid>Halloween Candy Token x 36</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_36_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>36</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_36}</DisplayId>
+   </Object>
+   <Object type="0xff29" id="Halloween Candy Token x 37">
+      <Displayid>Halloween Candy Token x 37</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_37_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>37</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_37}</DisplayId>
+   </Object>
+   <Object type="0xff2a" id="Halloween Candy Token x 38">
+      <Displayid>Halloween Candy Token x 38</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_38_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>38</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_38}</DisplayId>
+   </Object>
+   <Object type="0xff2b" id="Halloween Candy Token x 39">
+      <Displayid>Halloween Candy Token x 39</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_39_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>39</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_39}</DisplayId>
+   </Object>
+   <Object type="0xff2c" id="Halloween Candy Token x 40">
+      <Displayid>Halloween Candy Token x 40</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_40_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>40</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_40}</DisplayId>
+   </Object>
+   <Object type="0xff2d" id="Halloween Candy Token x 41">
+      <Displayid>Halloween Candy Token x 41</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_41_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>41</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_41}</DisplayId>
+   </Object>
+   <Object type="0xff2e" id="Halloween Candy Token x 42">
+      <Displayid>Halloween Candy Token x 42</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_42_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>42</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_42}</DisplayId>
+   </Object>
+   <Object type="0xff2f" id="Halloween Candy Token x 43">
+      <Displayid>Halloween Candy Token x 43</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_43_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>43</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_43}</DisplayId>
+   </Object>
+   <Object type="0xff30" id="Halloween Candy Token x 44">
+      <Displayid>Halloween Candy Token x 44</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_44_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>44</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_44}</DisplayId>
+   </Object>
+   <Object type="0xff31" id="Halloween Candy Token x 45">
+      <Displayid>Halloween Candy Token x 45</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_45_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>45</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_45}</DisplayId>
+   </Object>
+   <Object type="0xff32" id="Halloween Candy Token x 46">
+      <Displayid>Halloween Candy Token x 46</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_46_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>46</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_46}</DisplayId>
+   </Object>
+   <Object type="0xff33" id="Halloween Candy Token x 47">
+      <Displayid>Halloween Candy Token x 47</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_47_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>47</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_47}</DisplayId>
+   </Object>
+   <Object type="0xff34" id="Halloween Candy Token x 48">
+      <Displayid>Halloween Candy Token x 48</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_48_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>48</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_48}</DisplayId>
+   </Object>
+   <Object type="0xff35" id="Halloween Candy Token x 49">
+      <Displayid>Halloween Candy Token x 49</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_49_-_Can_be_stacked_up_to_50_times,_just_}</Description>
+      <Quantity>49</Quantity>
+      <Soulbound/>
+      <BagType>2</BagType>
+      <Treasure/>
+      <DisplayId>{token.Halloween_Candy_Token_x_49}</DisplayId>
+   </Object>
+   <Object type="0xff36" id="Halloween Candy Token x 50">
+      <Displayid>Halloween Candy Token x 50</Displayid>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59a</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{token.Halloween_Candy_x_50_-_Double_click_to_create_a_Headless_Ri}</Description>
+      <Quantity>50</Quantity>
+      <Soulbound/>
+      <Activate id="Headless Rider Skin">Exchange</Activate>
+      <BagType>2</BagType>
+      <Track/>
+      <Treasure/>
+      <Consumable/>
+      <DisplayId>{token.Halloween_Candy_Token_x_50}</DisplayId>
+   </Object>
+</Objects>

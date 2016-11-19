@@ -1523,4 +1523,118 @@
       <Size>0</Size>
       <DisplayId>{monsters.Rock_Candy_Grenade}</DisplayId>
    </Object>
+   <Object type="0x140d" id="Trick in a Box">
+      <Class>Character</Class>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x21</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Sound id="0">weapon/firework</Sound>
+      <ShadowSize>65</ShadowSize>
+      <MinSize>100</MinSize>
+      <MaxSize>120</MaxSize>
+      <DisplayId>{monsters.Trick_in_a_Box}</DisplayId>
+   </Object>
+   <Object type="0x140e" id="Trick in a Box Normal">
+      <DisplayId>{monsters.Trick_in_a_Box_Normal}</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x22</Index>
+      </Texture>
+      <Animation prob="1" period="0">
+         <Frame time="0.1">
+            <Texture>
+               <File>d3LofiObjEmbed</File>
+               <Index>0x22</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.1">
+            <Texture>
+               <File>d3LofiObjEmbed</File>
+               <Index>0x23</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>d3LofiObjEmbed</File>
+               <Index>0x24</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.1">
+            <Texture>
+               <File>d3LofiObjEmbed</File>
+               <Index>0x25</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.1">
+            <Texture>
+               <File>d3LofiObjEmbed</File>
+               <Index>0x26</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+      <Friendly/>
+      <NoMiniMap/>
+      <ShadowSize>65</ShadowSize>
+      <MinSize>100</MinSize>
+      <MaxSize>120</MaxSize>
+   </Object>
+   <Object type="0x140f" id="Trick in a Box Oryx">
+      <DisplayId>{monsters.Trick_in_a_Box_Oryx}</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x27</Index>
+      </Texture>
+      <Animation prob="1" period="0">
+         <Frame time="0.1">
+            <Texture>
+               <File>d3LofiObjEmbed</File>
+               <Index>0x27</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.1">
+            <Texture>
+               <File>d3LofiObjEmbed</File>
+               <Index>0x28</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>d3LofiObjEmbed</File>
+               <Index>0x29</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.1">
+            <Texture>
+               <File>d3LofiObjEmbed</File>
+               <Index>0x2a</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.1">
+            <Texture>
+               <File>d3LofiObjEmbed</File>
+               <Index>0x2b</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+      <Friendly/>
+      <NoMiniMap/>
+      <ShadowSize>65</ShadowSize>
+      <MinSize>100</MinSize>
+      <MaxSize>120</MaxSize>
+   </Object>
+   <Object type="0x1410" id="Fake White Bag">
+      <Class>Character</Class>
+      <NoMiniMap/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x94</Index>
+      </Texture>
+      <Size>80</Size>
+      <Sound id="0">weapon/firework</Sound>
+      <DisplayId>{monsters.Fake_White_Bag}</DisplayId>
+   </Object>
 </Objects>

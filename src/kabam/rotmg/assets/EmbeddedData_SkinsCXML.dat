@@ -881,6 +881,116 @@
       <UnlockSpecial>Unlocked during Halloween 2014. Thanks to: Beige</UnlockSpecial>
       <DisplayId>{skins.Poltergeist}</DisplayId>
    </Object>
+   <Object type="0x7490" id="Baby Djinja">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>102</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0326</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Baby_Djinja}</DisplayId>
+   </Object>
+   <Object type="0x7491" id="Mini Rosen">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>103</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0326</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Mini_Rosen}</DisplayId>
+   </Object>
+   <Object type="0x7492" id="Mini Geb">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>98</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0310</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Mini_Geb}</DisplayId>
+   </Object>
+   <Object type="0x7493" id="Mini Skuld">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>99</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0300</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Mini_Skuld}</DisplayId>
+   </Object>
+   <Object type="0x7494" id="Mini Archmage">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>100</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030e</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Mini_Archmage}</DisplayId>
+   </Object>
+   <Object type="0x7495" id="Mini Swoll">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>97</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x031f</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Mini_Swoll}</DisplayId>
+   </Object>
+   <Object type="0x7496" id="Mini Phylactery">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>96</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0323</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Mini_Phylactery}</DisplayId>
+   </Object>
+   <Object type="0x7497" id="Mini Oryx">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>95</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x031e</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Mini_Oryx}</DisplayId>
+   </Object>
+   <Object type="0x7498" id="Mini Thessal">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>94</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0322</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Mini_Thessal}</DisplayId>
+   </Object>
+   <Object type="0x09d9" id="Slurp Knight">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>107</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x031e</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Slurp_Knight}</DisplayId>
+   </Object>
    <Object type="0x0401" id="Oryx Set Skin">
       <Skin/>
       <Class>Skin</Class>
@@ -986,7 +1096,7 @@
       <NoSkinSelect/>
       <DisplayId>{skins.Rosen_Blade}</DisplayId>
    </Object>
-   <Object type="0x0406" id="Ginja">
+   <Object type="0x0406" id="Djinja">
       <Skin/>
       <Class>Skin</Class>
       <AnimatedTexture>
@@ -995,6 +1105,28 @@
       </AnimatedTexture>
       <PlayerClassType>0x0326</PlayerClassType>
       <NoSkinSelect/>
-      <DisplayId>{skins.Ginja}</DisplayId>
+      <DisplayId>{skins.Djinja}</DisplayId>
+   </Object>
+   <Object type="0x7ffe" id="Vampire Lord">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>108</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0321</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Vampire_Lord}</DisplayId>
+   </Object>
+   <Object type="0x7f8e" id="Headless Rider">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>109</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x031f</PlayerClassType>
+      <NoSkinSelect/>
+      <DisplayId>{skins.Headless_Rider}</DisplayId>
    </Object>
 </Objects>

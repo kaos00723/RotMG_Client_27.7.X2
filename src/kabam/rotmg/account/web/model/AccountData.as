@@ -6,6 +6,7 @@ public class AccountData {
     public var signedUpKabamEmail:int;
     public var error:String;
     public var name:String;
+    public var token:String;
 
 
 }

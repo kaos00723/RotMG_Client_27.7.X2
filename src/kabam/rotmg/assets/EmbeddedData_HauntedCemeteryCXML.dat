@@ -782,6 +782,7 @@
    <Object type="0x5e9b" id="Area1 Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{hauntedCemetery.Area1_Portal}</DisplayId>
       <DungeonName>Haunted Cemetery</DungeonName>
       <Texture>
          <File>lofiObj3</File>
@@ -825,12 +826,12 @@
             </Texture>
          </Frame>
       </Animation>
-      <DisplayId>{hauntedCemetery.Area1_Portal}</DisplayId>
    </Object>
    <Object type="0x5f25" id="Haunted Cemetery Gates Portal">
       <Class>Portal</Class>
       <Size>120</Size>
       <IntergamePortal/>
+      <DisplayId>{hauntedCemetery.Haunted_Cemetery_Gates_Portal}</DisplayId>
       <DungeonName>Haunted Cemetery Gates</DungeonName>
       <Texture>
          <File>lofiObj3</File>
@@ -874,12 +875,12 @@
             </Texture>
          </Frame>
       </Animation>
-      <DisplayId>{hauntedCemetery.Haunted_Cemetery_Gates_Portal}</DisplayId>
    </Object>
    <Object type="0x5f26" id="Haunted Cemetery Graves Portal">
       <Class>Portal</Class>
       <Size>130</Size>
       <IntergamePortal/>
+      <DisplayId>{hauntedCemetery.Haunted_Cemetery_Graves_Portal}</DisplayId>
       <DungeonName>Haunted Cemetery Graves</DungeonName>
       <Texture>
          <File>lofiObj3</File>
@@ -923,12 +924,12 @@
             </Texture>
          </Frame>
       </Animation>
-      <DisplayId>{hauntedCemetery.Haunted_Cemetery_Graves_Portal}</DisplayId>
    </Object>
    <Object type="0x5f29" id="Haunted Cemetery Final Rest Portal">
       <Class>Portal</Class>
       <Size>140</Size>
       <IntergamePortal/>
+      <DisplayId>{hauntedCemetery.Haunted_Cemetery_Final_Rest_Portal}</DisplayId>
       <DungeonName>Haunted Cemetery Final Battle</DungeonName>
       <Texture>
          <File>lofiObj3</File>
@@ -972,7 +973,6 @@
             </Texture>
          </Frame>
       </Animation>
-      <DisplayId>{hauntedCemetery.Haunted_Cemetery_Final_Rest_Portal}</DisplayId>
    </Object>
    <Object type="0x5e9f" id="Arena Headless Horseman">
       <DisplayId>{hauntedCemetery.Arena_Headless_Horseman}</DisplayId>
@@ -1661,7 +1661,6 @@
       <DisplayId>{hauntedCemetery.Arena_Horseman_Anchor}</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
-      <Enemy/>
       <NoMiniMap/>
       <Texture>
          <File>invisible</File>
@@ -1673,13 +1672,6 @@
       <ShadowSize>0</ShadowSize>
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>20</Defense>
-      <Projectile id="0">
-         <ObjectId>Blue Magic</ObjectId>
-         <Damage>90</Damage>
-         <Speed>70</Speed>
-         <LifetimeMS>900</LifetimeMS>
-         <Size>100</Size>
-      </Projectile>
    </Object>
    <Object type="0x5f33" id="Arena Statue Left">
       <DisplayId>{hauntedCemetery.Arena_Statue_Left}</DisplayId>

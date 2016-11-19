@@ -508,6 +508,70 @@
       <XpMult>0.3</XpMult>
       <Size>0</Size>
    </Object>
+   <Object type="0x0e0b" id="Sparkle">
+      <Class>GameObject</Class>
+      <RemoteTexture>
+         <Instance>testing</Instance>
+         <Id>4630001</Id>
+         <Right/>
+      </RemoteTexture>
+      <Animation prob="1" period="0">
+         <Frame time="0">
+            <RandomTexture>
+               <RemoteTexture>
+                  <Instance>testing</Instance>
+                  <Id>4630001</Id>
+                  <Right/>
+               </RemoteTexture>
+               <RemoteTexture>
+                  <Instance>testing</Instance>
+                  <Id>4631001</Id>
+                  <Right/>
+               </RemoteTexture>
+               <RemoteTexture>
+                  <Instance>testing</Instance>
+                  <Id>4630002</Id>
+                  <Right/>
+               </RemoteTexture>
+               <RemoteTexture>
+                  <Instance>testing</Instance>
+                  <Id>4630003</Id>
+                  <Right/>
+               </RemoteTexture>
+               <RemoteTexture>
+                  <Instance>testing</Instance>
+                  <Id>4631002</Id>
+                  <Right/>
+               </RemoteTexture>
+               <RemoteTexture>
+                  <Instance>testing</Instance>
+                  <Id>4629002</Id>
+                  <Right/>
+               </RemoteTexture>
+               <RemoteTexture>
+                  <Instance>testing</Instance>
+                  <Id>4630004</Id>
+                  <Right/>
+               </RemoteTexture>
+               <RemoteTexture>
+                  <Instance>testing</Instance>
+                  <Id>4629003</Id>
+                  <Right/>
+               </RemoteTexture>
+               <RemoteTexture>
+                  <Instance>testing</Instance>
+                  <Id>4627002</Id>
+                  <Right/>
+               </RemoteTexture>
+            </RandomTexture>
+         </Frame>
+      </Animation>
+      <NoMiniMap/>
+      <Size>80</Size>
+      <ShadowSize>0</ShadowSize>
+      <Z>0.2</Z>
+      <Flying/>
+   </Object>
    <Object type="0x0e0f" id="Eyeball">
       <Class>Character</Class>
       <Enemy/>

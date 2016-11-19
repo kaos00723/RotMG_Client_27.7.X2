@@ -3188,12 +3188,10 @@
          </Frame>
       </Animation>
       <Static/>
-      <OccupySquare/>
       <HitSound>monster/stone_walls_hit</HitSound>
       <DeathSound>monster/stone_walls_death</DeathSound>
       <MaxHitPoints>2200</MaxHitPoints>
       <StasisImmune/>
-      <Enemy/>
    </Object>
    <Object type="0x180e" id="Gothic Window 1">
       <Class>Wall</Class>
@@ -6281,7 +6279,6 @@
       <Static/>
       <OccupySquare/>
       <EnemyOccupySquare/>
-      <Enemy/>
       <XpMult>0.0</XpMult>
       <HitSound>monster/rocks_hit</HitSound>
       <DeathSound>monster/rocks_death</DeathSound>
@@ -7409,12 +7406,10 @@
          </Frame>
       </Animation>
       <Static/>
-      <OccupySquare/>
       <HitSound>monster/stone_walls_hit</HitSound>
       <DeathSound>monster/stone_walls_death</DeathSound>
       <MaxHitPoints>2200</MaxHitPoints>
       <StasisImmune/>
-      <Enemy/>
    </Object>
    <Object type="0x1933" id="Dragon Table LL">
       <Class>GameObject</Class>
@@ -8432,6 +8427,263 @@
          <Texture>
             <File>lofiEnvironment3</File>
             <Index>0x19c</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x22a0" id="Puppet Parts">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x2f</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x30</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x31</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x32</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x33</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x34</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x35</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x36</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x37</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x38</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x39</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x3a</Index>
+         </Texture>
+      </RandomTexture>
+      <MinSize>80</MinSize>
+      <MaxSize>90</MaxSize>
+      <SizeStep>2</SizeStep>
+      <ShadowSize>60</ShadowSize>
+      <Static/>
+   </Object>
+   <Object type="0x22a1" id="Puppet Tools">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x3b</Index>
+         </Texture>
+         <Texture>
+            <File>d3LofiObjEmbed</File>
+            <Index>0x3c</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>80</Size>
+      <ShadowSize>60</ShadowSize>
+      <Static/>
+   </Object>
+   <Object type="0x0056" id="DS Wall">
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x565</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x566</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x010d" id="DS Pillar">
+      <Class>GameObject</Class>
+      <Model>Pillar</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x569</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x010e" id="DS Floor Grate NS">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56a</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <ProtectFromGroundDamage/>
+      <ProtectFromSink/>
+   </Object>
+   <Object type="0x010f" id="DS Floor Grate EW">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56b</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <ProtectFromGroundDamage/>
+      <ProtectFromSink/>
+   </Object>
+   <Object type="0x0115" id="DS Wall 2">
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x577</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x566</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x0116" id="DS Wall Gate Right">
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x578</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x566</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x0117" id="DS Wall Gate Middle">
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x579</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x566</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x0118" id="DS Wall Gate Left">
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x57a</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x566</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x0119" id="DS Floor Grate Cross">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x57b</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <ProtectFromGroundDamage/>
+      <ProtectFromSink/>
+   </Object>
+   <Object type="0x011a" id="DS Dirt Pile">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x572</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x573</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x574</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>85</Size>
+      <Static/>
+   </Object>
+   <Object type="0x123" id="TH Wall">
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x588</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x589</Index>
          </Texture>
       </Top>
       <HitSound>monster/stone_walls_hit</HitSound>

@@ -12,13 +12,13 @@ public class SlotObjectData {
     public function parseFromInput(_arg_1:IDataInput):void {
         this.objectId_ = _arg_1.readInt();
         this.slotId_ = _arg_1.readUnsignedByte();
-        this.objectType_ = _arg_1.readShort();
+        this.objectType_ = _arg_1.readInt();
     }
 
     public function writeToOutput(_arg_1:IDataOutput):void {
         _arg_1.writeInt(this.objectId_);
         _arg_1.writeByte(this.slotId_);
-        _arg_1.writeShort(this.objectType_);
+        _arg_1.writeInt(this.objectType_);
     }
 
     public function toString():String {

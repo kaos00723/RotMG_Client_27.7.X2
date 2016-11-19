@@ -115,7 +115,7 @@
       <StasisImmune/>
       <Quest/>
       <Level>1</Level>
-      <XpMult>0.7</XpMult>
+      <XpMult>2</XpMult>
       <NoArticle/>
       <Projectile id="0">
          <ObjectId>Blade</ObjectId>
@@ -149,7 +149,7 @@
       <Defense>7</Defense>
       <Enemy/>
       <Level>1</Level>
-      <XpMult>0.1</XpMult>
+      <XpMult>0</XpMult>
       <Projectile id="0">
          <ObjectId>Aqua Missile</ObjectId>
          <Speed>60</Speed>
@@ -174,7 +174,7 @@
       <Defense>4</Defense>
       <Enemy/>
       <Level>1</Level>
-      <XpMult>0.1</XpMult>
+      <XpMult>0</XpMult>
       <Projectile id="0">
          <ObjectId>Aqua Missile</ObjectId>
          <Speed>60</Speed>

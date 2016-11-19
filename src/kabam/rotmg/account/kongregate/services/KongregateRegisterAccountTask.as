@@ -43,7 +43,7 @@ public class KongregateRegisterAccountTask extends BaseTask implements RegisterA
 
     private function updateAccount(_arg_1:String):void {
         var _local_2:XML = new XML(_arg_1);
-        this.account.updateUser(_local_2.GUID, _local_2.Secret);
+        this.account.updateUser(_local_2.GUID, _local_2.Secret, "");
         this.account.setPlatformToken(_local_2.PlatformToken);
     }
 

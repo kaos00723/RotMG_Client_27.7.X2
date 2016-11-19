@@ -130,6 +130,7 @@
       <Enemy/>
       <Class>Character</Class>
       <StasisImmune/>
+      <StunImmune/>
       <HitSound>monster/golems_hit</HitSound>
       <DeathSound>monster/beholder_death</DeathSound>
       <MaxHitPoints>25000</MaxHitPoints>
@@ -161,6 +162,7 @@
       <Enemy/>
       <Class>Character</Class>
       <StasisImmune/>
+      <StunImmune/>
       <HitSound>monster/golems_hit</HitSound>
       <DeathSound>monster/beholder_death</DeathSound>
       <MaxHitPoints>25000</MaxHitPoints>
@@ -192,6 +194,7 @@
       <Enemy/>
       <Class>Character</Class>
       <StasisImmune/>
+      <StunImmune/>
       <HitSound>monster/golems_hit</HitSound>
       <DeathSound>monster/beholder_death</DeathSound>
       <MaxHitPoints>25000</MaxHitPoints>
@@ -1266,7 +1269,7 @@
       <Projectile id="2">
          <ObjectId>Hellfire</ObjectId>
          <Speed>67</Speed>
-         <Damage>115</Damage>
+         <Damage>120</Damage>
          <Size>125</Size>
          <LifetimeMS>1600</LifetimeMS>
          <MultiHit/>
@@ -1320,7 +1323,6 @@
       <Hero/>
       <Quest/>
       <God/>
-      <Encounter/>
       <StasisImmune/>
       <Level>20</Level>
       <Projectile>
@@ -1376,6 +1378,78 @@
          <LifetimeMS>2400</LifetimeMS>
       </Projectile>
       <DisplayId>{encounters.Blue_Flaming_Skull}</DisplayId>
+   </Object>
+   <Object type="0x0e51" id="Pumpkin Shrine">
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>d3Chars16x16rEmbed</File>
+         <Index>0x04</Index>
+      </AnimatedTexture>
+      <HitSound>monster/skull_shrine_hit</HitSound>
+      <DeathSound>monster/skull_shrine_death</DeathSound>
+      <Size>120</Size>
+      <MaxHitPoints>20000</MaxHitPoints>
+      <Defense>40</Defense>
+      <Enemy/>
+      <Hero/>
+      <Quest/>
+      <God/>
+      <Encounter/>
+      <StasisImmune/>
+      <Level>20</Level>
+      <Projectile>
+         <ObjectId>Purple Magic</ObjectId>
+         <Speed>100</Speed>
+         <Damage>100</Damage>
+         <LifetimeMS>2400</LifetimeMS>
+      </Projectile>
+      <DisplayId>{encounters.Pumpkin_Shrine}</DisplayId>
+   </Object>
+   <Object type="0x0e52" id="Green Floating Pumpkin">
+      <Group>Floating Pumpkins</Group>
+      <Class>Character</Class>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>d3Chars8x8rEmbed</File>
+         <Index>11</Index>
+      </AnimatedTexture>
+      <HitSound>monster/flaming_skulls_hit</HitSound>
+      <DeathSound>monster/flaming_skulls_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Size>120</Size>
+      <Flying/>
+      <Z>0.2</Z>
+      <XpMult>0.1</XpMult>
+      <Projectile>
+         <ObjectId>Green Magic</ObjectId>
+         <Speed>100</Speed>
+         <Damage>80</Damage>
+         <LifetimeMS>2400</LifetimeMS>
+      </Projectile>
+      <DisplayId>{encounters.Green_Floating_Pumpkin}</DisplayId>
+   </Object>
+   <Object type="0x0e53" id="Blue Floating Pumpkin">
+      <Group>Floating Pumpkins</Group>
+      <Class>Character</Class>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>d3Chars8x8rEmbed</File>
+         <Index>0x09</Index>
+      </AnimatedTexture>
+      <HitSound>monster/flaming_skulls_hit</HitSound>
+      <DeathSound>monster/flaming_skulls_death</DeathSound>
+      <MaxHitPoints>750</MaxHitPoints>
+      <Size>120</Size>
+      <Flying/>
+      <Z>0.2</Z>
+      <XpMult>0.1</XpMult>
+      <Projectile>
+         <ObjectId>Blue Magic</ObjectId>
+         <Speed>100</Speed>
+         <Damage>60</Damage>
+         <LifetimeMS>2400</LifetimeMS>
+      </Projectile>
+      <DisplayId>{encounters.Blue_Floating_Pumpkin}</DisplayId>
    </Object>
    <Object type="0x0d59" id="Cube God">
       <Class>Character</Class>
@@ -1887,5 +1961,96 @@
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
       <DisplayId>{encounters.Hermit_God_Drop}</DisplayId>
+   </Object>
+   <Object type="0x0e54" id="Zombie Horde">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Portrait>
+         <AnimatedTexture>
+            <File>chars8x8rEncounters</File>
+            <Index>50</Index>
+         </AnimatedTexture>
+      </Portrait>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <God/>
+      <Hero/>
+      <Quest/>
+      <Encounter/>
+      <Level>20</Level>
+      <PerRealmMax>10</PerRealmMax>
+      <DisplayId>{encounters.Zombie_Horde}</DisplayId>
+   </Object>
+   <Object type="0x0e5c" id="Bonegrind 2">
+      <DisplayId>{encounters.Bonegrind_2}</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>d3Chars16x16rEmbed</File>
+         <Index>8</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <Texture>
+            <File>invisible</File>
+            <Index>0</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/pirates_hit</HitSound>
+      <DeathSound>monster/pirates_death</DeathSound>
+      <Size>20</Size>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>60</Defense>
+      <StasisImmune/>
+      <StunImmune/>
+      <XpMult>2</XpMult>
+      <Projectile id="0">
+         <ObjectId>Big Zombie Wave</ObjectId>
+         <Speed>30</Speed>
+         <Damage>60</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="6">Sick</ConditionEffect>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Big Zombie Wave</ObjectId>
+         <Speed>60</Speed>
+         <Damage>90</Damage>
+         <Size>120</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="6">Sick</ConditionEffect>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Big Zombie Wave</ObjectId>
+         <Speed>90</Speed>
+         <Damage>120</Damage>
+         <Size>140</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="6">Sick</ConditionEffect>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Bonegrind Cleaver</ObjectId>
+         <Speed>75</Speed>
+         <Damage>110</Damage>
+         <Size>150</Size>
+         <LifetimeMS>1600</LifetimeMS>
+         <PassesCover/>
+         <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0x0e57" id="Horde Spawner">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <NoMiniMap/>
+      <DisplayId>{encounters.Horde_Spawner}</DisplayId>
    </Object>
 </Objects>

@@ -31,7 +31,7 @@ public class WebLoginTask extends BaseTask implements LoginTask {
     }
 
     private function updateUser(_arg_1:String):void {
-        this.account.updateUser(this.data.username, this.data.password);
+        this.account.updateUser(this.data.username, this.data.password, "");
     }
 
 

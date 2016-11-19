@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="WebMain">
     <configurations>
-      <configuration name="WebMain" main-class="WebMain" output-file="AssembleeGameClient1470937048.swf" output-folder="$MODULE_DIR$/out/production/WebMain">
+      <configuration name="WebMain" main-class="WebMain" output-file="AssembleeGameClient1479399122.swf" output-folder="$MODULE_DIR$/out/production/WebMain">
         <dependencies target-player="15.0">
           <entries>
             <entry library-id="5aae583f-abea-482e-9c5e-e8ffaead6593">

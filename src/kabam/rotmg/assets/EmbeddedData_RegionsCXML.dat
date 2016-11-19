@@ -170,6 +170,6 @@
       <Color>0xFFF700</Color>
    </Region>
    <Region type="0x30" id="Quest Monster Region">
-      <Color>0xFFF723</Color>
+      <Color>0xFF0000</Color>
    </Region>
 </Regions>

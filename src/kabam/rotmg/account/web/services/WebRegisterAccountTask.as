@@ -34,13 +34,20 @@ public class WebRegisterAccountTask extends BaseTask implements RegisterAccountT
     }
 
     private function onComplete(_arg_1:Boolean, _arg_2:*):void {
-        ((_arg_1) && (this.onRegisterDone()));
+        ((_arg_1) && (this.onRegisterDone(_arg_2)));
         completeTask(_arg_1, _arg_2);
     }
 
-    private function onRegisterDone():void {
+    private function onRegisterDone(_arg_1:String):void {
         this.model.setIsAgeVerified(true);
-        this.account.updateUser(this.data.username, this.data.password);
+        var _local_2:XML = new XML(_arg_1);
+        if (_local_2.hasOwnProperty("token")){
+            this.data.token = _local_2.token;
+            this.account.updateUser(this.data.username, this.data.password, _local_2.token);
+        }
+        else {
+            this.account.updateUser(this.data.username, this.data.password, "");
+        }
     }
 
 
