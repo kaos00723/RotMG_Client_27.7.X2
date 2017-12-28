@@ -36,7 +36,7 @@ public class KongregateGetCredentialsTask extends BaseTask {
     }
 
     private function updateGuestAccount():void {
-        this.account.updateUser(this.local.getGuestGUID(), "");
+        this.account.updateUser(this.local.getGuestGUID(), "", "");
         completeTask(true);
     }
 

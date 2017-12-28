@@ -700,7 +700,7 @@
       <Level>8</Level>
       <XpMult>2.3</XpMult>
       <Flying/>
-      <SpawnProb>0.75</SpawnProb>
+      <SpawnProb>0.50</SpawnProb>
       <Projectile id="0">
          <ObjectId>Yellow Missile</ObjectId>
          <Damage>22</Damage>
@@ -759,6 +759,87 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
       <DisplayId>{mid.Warrior_Wasp}</DisplayId>
+   </Object>
+   <Object type="0x094a" id="Warrior Bee">
+      <Group>Bees</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rMid2</File>
+         <Index>11</Index>
+      </AnimatedTexture>
+      <HitSound>monster/spiders_hit</HitSound>
+      <DeathSound>monster/spiders_death</DeathSound>
+      <Size>140</Size>
+      <MaxHitPoints>900</MaxHitPoints>
+      <Defense>2</Defense>
+      <Terrain>MidPlains</Terrain>
+      <Quest/>
+      <Level>8</Level>
+      <XpMult>2.3</XpMult>
+      <Z>0.2</Z>
+      <Flying/>
+      <SpawnProb>0.40</SpawnProb>
+      <Projectile id="0">
+         <ObjectId>Orange Missile</ObjectId>
+         <Damage>20</Damage>
+         <Speed>75</Speed>
+         <Size>100</Size>
+         <LifetimeMS>1200</LifetimeMS>
+      </Projectile>
+      <DisplayId>{mid.Warrior_Bee}</DisplayId>
+   </Object>
+   <Object type="0x094b" id="Scout Bee">
+      <Group>Bees</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rMid2</File>
+         <Index>12</Index>
+      </AnimatedTexture>
+      <HitSound>monster/spiders_hit</HitSound>
+      <DeathSound>monster/spiders_death</DeathSound>
+      <Size>90</Size>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Defense>1</Defense>
+      <XpMult>0.5</XpMult>
+      <Z>0.1</Z>
+      <Flying/>
+      <Terrain>MidPlains</Terrain>
+      <Projectile id="0">
+         <ObjectId>Aqua Missile</ObjectId>
+         <Damage>16</Damage>
+         <Speed>75</Speed>
+         <Size>70</Size>
+         <LifetimeMS>1200</LifetimeMS>
+      </Projectile>
+      <DisplayId>{mid.Scout_Bee}</DisplayId>
+   </Object>
+   <Object type="0x094c" id="Fighter Bee">
+      <Group>Bees</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rMid2</File>
+         <Index>13</Index>
+      </AnimatedTexture>
+      <HitSound>monster/spiders_hit</HitSound>
+      <DeathSound>monster/spiders_death</DeathSound>
+      <Size>100</Size>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Defense>3</Defense>
+      <XpMult>0.5</XpMult>
+      <Z>0.1</Z>
+      <Flying/>
+      <Terrain>MidPlains</Terrain>
+      <Projectile id="0">
+         <ObjectId>Red Planet Blast</ObjectId>
+         <Damage>30</Damage>
+         <Speed>75</Speed>
+         <Size>80</Size>
+         <LifetimeMS>1200</LifetimeMS>
+      </Projectile>
+      <DisplayId>{mid.Fighter_Bee}</DisplayId>
    </Object>
    <Object type="0x0950" id="Shambling Sludge">
       <Group>Sludges</Group>

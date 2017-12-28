@@ -1725,6 +1725,56 @@
       <Size>80</Size>
       <DisplayId>{pets.Reaper}</DisplayId>
    </Object>
+   <Object id="Jaco" type="0x6109">
+      <Pet/>
+      <Class>Pet</Class>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x15a</Index>
+      </Texture>
+      <Family>Spooky</Family>
+      <Rarity>Divine</Rarity>
+      <DefaultSkin>Jaco Skin</DefaultSkin>
+      <Size>80</Size>
+      <DisplayId>{pets.Jaco}</DisplayId>
+   </Object>
+   <Object id="Giant Vampire Bat" type="0x7ffb">
+      <Pet/>
+      <Class>Pet</Class>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x15a</Index>
+      </Texture>
+      <Family>Spooky</Family>
+      <Rarity>Divine</Rarity>
+      <DefaultSkin>Giant Vampire Bat Skin</DefaultSkin>
+      <WhileMoving>
+         <Z>0.25</Z>
+         <Flying/>
+      </WhileMoving>
+      <Size>80</Size>
+      <DisplayId>{pets.Giant_Vampire_Bat}</DisplayId>
+   </Object>
+   <Object type="0x7f8b" id="Pumpkin Head">
+      <Pet/>
+      <Class>Pet</Class>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x32</Index>
+      </Texture>
+      <Family>Spooky</Family>
+      <Rarity>Divine</Rarity>
+      <DefaultSkin>Pumpkin Head Skin</DefaultSkin>
+      <ShadowSize>80</ShadowSize>
+      <Size>60</Size>
+      <Flying/>
+      <Z>0.56</Z>
+      <WhileMoving>
+         <Flying/>
+         <Z>0.62</Z>
+      </WhileMoving>
+      <DisplayId>{pets.Pumpkin_Head}</DisplayId>
+   </Object>
    <Object id="Battle God" type="0x7f80">
       <Pet/>
       <Class>Pet</Class>
@@ -1769,6 +1819,24 @@
       <Size>80</Size>
       <DisplayId>{pets.Forest_Fairy}</DisplayId>
    </Object>
+   <Object id="Marid" type="0x6100">
+      <Pet/>
+      <Class>Pet</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xe0</Index>
+      </Texture>
+      <Family>Humanoid</Family>
+      <Rarity>Divine</Rarity>
+      <DefaultSkin>Marid Skin</DefaultSkin>
+      <WhileMoving>
+         <Z>0.25</Z>
+         <Flying/>
+      </WhileMoving>
+      <ShadowSize>60</ShadowSize>
+      <Size>80</Size>
+      <DisplayId>{pets.Marid}</DisplayId>
+   </Object>
    <Object id="Lil' Oryx" type="0x7f83">
       <Pet/>
       <Class>Pet</Class>
@@ -1808,6 +1876,33 @@
       <Size>80</Size>
       <ShadowSize>90</ShadowSize>
       <DisplayId>{pets.Great_Jelly}</DisplayId>
+   </Object>
+   <Object id="Sir Bagston" type="0x6103">
+      <Pet/>
+      <Class>Pet</Class>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x32</Index>
+      </Texture>
+      <Family>? ? ? ?</Family>
+      <Rarity>Divine</Rarity>
+      <DefaultSkin>Bagston Skin</DefaultSkin>
+      <ShadowSize>40</ShadowSize>
+      <Size>80</Size>
+      <DisplayId>{pets.Sir_Bagston}</DisplayId>
+   </Object>
+   <Object id="Goldy" type="0x6106">
+      <Pet/>
+      <Class>Pet</Class>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x32</Index>
+      </Texture>
+      <Family>? ? ? ?</Family>
+      <Rarity>Divine</Rarity>
+      <DefaultSkin>Goldy Skin</DefaultSkin>
+      <Size>80</Size>
+      <DisplayId>{pets.Goldy}</DisplayId>
    </Object>
    <Object id="Spiderbot" type="0x7f86">
       <Pet/>
@@ -3041,6 +3136,138 @@
       <AnimatedTexture>
          <File>petsDivine</File>
          <Index>31</Index>
+      </AnimatedTexture>
+   </Object>
+   <Object type="0x6e9" id="Gutsbot Pet Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>petsDivine</File>
+         <Index>31</Index>
+      </AnimatedTexture>
+      <Size>60</Size>
+      <SlotType>10</SlotType>
+      <Description>{pets.Customize_your_pet_with_the_Gutsbot_Skin}</Description>
+      <Activate skinId="32648">PetSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <DisplayId>{pets.Gutsbot_Pet_Stone}</DisplayId>
+   </Object>
+   <Object type="0x89a2" id="Marid Skin">
+      <PetSkin/>
+      <DisplayId>{pets.Marid_Skin}</DisplayId>
+      <Class>PetSkin</Class>
+      <AnimatedTexture>
+         <File>petsDivine</File>
+         <Index>32</Index>
+      </AnimatedTexture>
+   </Object>
+   <Object type="0xcfb" id="Marid Pet Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59f</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{pets.Transform_your_pet_into_Marid_of_the_Humanoid_family._This_i}</Description>
+      <Activate skinId="24832">PetSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <DisplayId>{pets.Marid_Pet_Stone}</DisplayId>
+      <feedPower>5000</feedPower>
+   </Object>
+   <Object type="0x6104" id="Bagston Skin">
+      <PetSkin/>
+      <DisplayId>{pets.Bagston_Skin}</DisplayId>
+      <Class>PetSkin</Class>
+      <AnimatedTexture>
+         <File>chars8x8rPets1</File>
+         <Index>107</Index>
+      </AnimatedTexture>
+   </Object>
+   <Object type="0x6105" id="Bagston Pet Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59e</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{pets.Transform_your_pet_into_Sir_Bagston_of_the_?_?_?_?_family._T}</Description>
+      <Activate skinId="24835">PetSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <DisplayId>{pets.Bagston_Pet_Stone}</DisplayId>
+   </Object>
+   <Object type="0x6107" id="Goldy Skin">
+      <PetSkin/>
+      <DisplayId>{pets.Goldy_Skin}</DisplayId>
+      <Class>PetSkin</Class>
+      <AnimatedTexture>
+         <File>chars8x8rPets1</File>
+         <Index>108</Index>
+      </AnimatedTexture>
+   </Object>
+   <Object type="0x6108" id="Goldy Pet Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59d</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{pets.Transform_your_pet_into_Goldy_of_the_?_?_?_?_family._This_is}</Description>
+      <Activate skinId="24838">PetSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <DisplayId>{pets.Goldy_Pet_Stone}</DisplayId>
+   </Object>
+   <Object type="0x610a" id="Jaco Skin">
+      <PetSkin/>
+      <DisplayId>{pets.Jaco_Skin}</DisplayId>
+      <Class>PetSkin</Class>
+      <AnimatedTexture>
+         <File>petsDivine</File>
+         <Index>33</Index>
+      </AnimatedTexture>
+   </Object>
+   <Object type="0x610b" id="Jaco Pet Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x599</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{pets.Transform_your_pet_into_Jaco_of_the_Spooky_family._This_is_i}</Description>
+      <Activate skinId="24841">PetSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <DisplayId>{pets.Jaco_Pet_Stone}</DisplayId>
+      <feedPower>5000</feedPower>
+   </Object>
+   <Object type="0x7ffc" id="Giant Vampire Bat Skin">
+      <PetSkin/>
+      <DisplayId>{pets.Giant_Vampire_Bat_Skin}</DisplayId>
+      <Class>PetSkin</Class>
+      <AnimatedTexture>
+         <File>petsDivine</File>
+         <Index>34</Index>
+      </AnimatedTexture>
+   </Object>
+   <Object type="0x7f8c" id="Pumpkin Head Skin">
+      <PetSkin/>
+      <DisplayId>{pets.Pumpkin_Head_Skin}</DisplayId>
+      <Class>PetSkin</Class>
+      <AnimatedTexture>
+         <File>chars8x8rPets1</File>
+         <Index>109</Index>
       </AnimatedTexture>
    </Object>
    <Object type="0x8090" id="Disabled Pet Skin">

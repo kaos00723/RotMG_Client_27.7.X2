@@ -415,12 +415,12 @@
    <Object type="0x070c" id="Glowing Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Glowing_Portal}</DisplayId>
       <DungeonName>Sprite World</DungeonName>
       <Texture>
          <File>lofiEnvironment2</File>
          <Index>0x36</Index>
       </Texture>
-      <DisplayId>{objects.Glowing_Portal}</DisplayId>
    </Object>
    <Object type="0x070d" id="Glowing Portal of Cowardice">
       <Class>Portal</Class>
@@ -487,16 +487,17 @@
    <Object type="0x0717" id="Pirate Cave Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Pirate_Cave_Portal}</DisplayId>
       <DungeonName>Pirate Cave</DungeonName>
       <Texture>
          <File>lofiEnvironment</File>
          <Index>0x7c</Index>
       </Texture>
-      <DisplayId>{objects.Pirate_Cave_Portal}</DisplayId>
    </Object>
    <Object type="0x0718" id="Snake Pit Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Snake_Pit_Portal}</DisplayId>
       <DungeonName>Snake Pit</DungeonName>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -528,21 +529,21 @@
             </Texture>
          </Frame>
       </Animation>
-      <DisplayId>{objects.Snake_Pit_Portal}</DisplayId>
    </Object>
    <Object type="0x0719" id="Spider Den Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Spider_Den_Portal}</DisplayId>
       <DungeonName>Spider Den</DungeonName>
       <Texture>
          <File>lofiEnvironment2</File>
          <Index>0x8f</Index>
       </Texture>
-      <DisplayId>{objects.Spider_Den_Portal}</DisplayId>
    </Object>
    <Object type="0x071a" id="Undead Lair Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Undead_Lair_Portal}</DisplayId>
       <DungeonName>Undead Lair</DungeonName>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -574,17 +575,16 @@
             </RandomTexture>
          </Frame>
       </Animation>
-      <DisplayId>{objects.Undead_Lair_Portal}</DisplayId>
    </Object>
    <Object type="0x071b" id="Abyss of Demons Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Abyss_of_Demons_Portal}</DisplayId>
       <DungeonName>Abyss of Demons</DungeonName>
       <Texture>
          <File>lofiEnvironment2</File>
          <Index>0x9d</Index>
       </Texture>
-      <DisplayId>{objects.Abyss_of_Demons_Portal}</DisplayId>
    </Object>
    <Object type="0x071c" id="Random Realm Portal">
       <Class>Portal</Class>
@@ -640,12 +640,12 @@
    <Object type="0x075e" id="Battle Nexus Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Battle_Nexus_Portal}</DisplayId>
       <DungeonName>Battle for the Nexus</DungeonName>
       <Texture>
          <File>lofiObj3</File>
          <Index>0x410</Index>
       </Texture>
-      <DisplayId>{objects.Battle_Nexus_Portal}</DisplayId>
    </Object>
    <Object type="0x0723" id="Gravestone 1">
       <Class>GameObject</Class>
@@ -799,12 +799,12 @@
    <Object type="0x072d" id="Dreamscape Labyrinth Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Dreamscape_Labyrinth_Portal}</DisplayId>
       <DungeonName>Dreamscape Labyrinth</DungeonName>
       <Texture>
          <File>lofiEnvironment</File>
          <Index>0x7c</Index>
       </Texture>
-      <DisplayId>{objects.Dreamscape_Labyrinth_Portal}</DisplayId>
    </Object>
    <Object type="0x01ca" id="Merchant">
       <Class>Merchant</Class>
@@ -817,12 +817,23 @@
    <Object type="0x01c7" id="White Fountain">
       <Class>GameObject</Class>
       <Model>Tower</Model>
-      <Effect>Fountain</Effect>
+      <Effect color="0x4165D5">Fountain</Effect>
       <Texture>
          <File>lofiEnvironment2</File>
          <Index>0x96</Index>
       </Texture>
       <DisplayId>{objects.White_Fountain}</DisplayId>
+   </Object>
+   <Object type="0x01ef" id="Halloween Fountain">
+      <Class>GameObject</Class>
+      <Model>Tower</Model>
+      <Effect color="0x91121c">Fountain</Effect>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x162</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+      <DisplayId>{objects.Halloween_Fountain}</DisplayId>
    </Object>
    <Object type="0x072f" id="Guild Hall Portal">
       <Class>GuildHallPortal</Class>
@@ -838,12 +849,12 @@
    <Object type="0x0730" id="Ocean Trench Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Ocean_Trench_Portal}</DisplayId>
       <DungeonName>Ocean Trench</DungeonName>
       <Texture>
          <File>lofiEnvironment2</File>
          <Index>0x9f</Index>
       </Texture>
-      <DisplayId>{objects.Ocean_Trench_Portal}</DisplayId>
    </Object>
    <Object type="0x0731" id="Ocean Vent">
       <Class>GameObject</Class>
@@ -883,12 +894,12 @@
    <Object type="0x0733" id="Forbidden Jungle Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Forbidden_Jungle_Portal}</DisplayId>
       <DungeonName>Forbidden Jungle</DungeonName>
       <Texture>
          <File>lofiEnvironment2</File>
          <Index>0xa8</Index>
       </Texture>
-      <DisplayId>{objects.Forbidden_Jungle_Portal}</DisplayId>
    </Object>
    <Object type="0x0736" id="Guild Hall Upgrade 1">
       <DisplayId>{objects.Guild_Hall_Upgrade_1}</DisplayId>
@@ -935,12 +946,12 @@
    <Object type="0x0739" id="Manor of the Immortals Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Manor_of_the_Immortals_Portal}</DisplayId>
       <DungeonName>Manor of the Immortals</DungeonName>
       <Texture>
          <File>lofiEnvironment2</File>
          <Index>0x4c</Index>
       </Texture>
-      <DisplayId>{objects.Manor_of_the_Immortals_Portal}</DisplayId>
    </Object>
    <Object type="0x073a" id="Cube">
       <Class>GameObject</Class>
@@ -1101,17 +1112,18 @@
    <Object type="0x074a" id="Candyland Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Candyland_Portal}</DisplayId>
       <DungeonName>Candyland Hunting Grounds</DungeonName>
       <Texture>
          <File>lofiObj3</File>
          <Index>0x2a5</Index>
       </Texture>
       <ShadowSize>0</ShadowSize>
-      <DisplayId>{objects.Candyland_Portal}</DisplayId>
    </Object>
    <Object type="0x074b" id="Haunted Cemetery Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
+      <DisplayId>{objects.Haunted_Cemetery_Portal}</DisplayId>
       <DungeonName>Haunted Cemetery</DungeonName>
       <Texture>
          <File>lofiObj3</File>
@@ -1155,7 +1167,54 @@
             </Texture>
          </Frame>
       </Animation>
-      <DisplayId>{objects.Haunted_Cemetery_Portal}</DisplayId>
+   </Object>
+   <Object type="0x135" id="Halloween Cemetery Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>{objects.Halloween_Cemetery_Portal}</DisplayId>
+      <DungeonName>Halloween Haunted Cemetery</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x318</Index>
+      </Texture>
+      <Animation prob="0.4" period="1.8">
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x319</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x31a</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.6">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x31b</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x31a</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x319</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x318</Index>
+            </Texture>
+         </Frame>
+      </Animation>
    </Object>
    <Object type="0x5e29" id="Halloween Bat">
       <Enemy/>
@@ -1643,9 +1702,66 @@
          <File>lofiObj3</File>
          <Index>0x466</Index>
       </Texture>
-      <MaxHitPoints>120000</MaxHitPoints>
+      <MaxHitPoints>180000</MaxHitPoints>
+      <Defense>0</Defense>
+      <Size>160</Size>
+      <XpMult>5.13</XpMult>
+   </Object>
+   <Object type="0x744F" id="Event Chest Portal">
+      <DisplayId>{objects.Event_Chest_Portal}</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x466</Index>
+      </Texture>
+      <MaxHitPoints>30000</MaxHitPoints>
       <Defense>0</Defense>
       <Size>160</Size>
       <XpMult>0.0</XpMult>
+   </Object>
+   <Object type="0x716a" id="Dank Sewer Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>{objects.Dank_Sewer_Portal}</DisplayId>
+      <DungeonName>Dank Sewer</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56c</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+   </Object>
+   <Object type="0x23e" id="Toxic Sewers Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>{objects.Toxic_Sewers_Portal}</DisplayId>
+      <DungeonName>Toxic Sewers</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56c</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+   </Object>
+   <Object type="0x11d" id="The Hive Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>{objects.The_Hive_Portal}</DisplayId>
+      <DungeonName>The Hive</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x58a</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+   </Object>
+   <Object type="0x137" id="Mountain Temple Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>{objects.Mountain_Temple_Portal}</DisplayId>
+      <DungeonName>Mountain Temple</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x58a</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
    </Object>
 </Objects>

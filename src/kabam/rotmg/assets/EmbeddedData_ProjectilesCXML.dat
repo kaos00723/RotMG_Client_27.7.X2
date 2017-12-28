@@ -3771,4 +3771,98 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
+   <Object type="0xa22d" id="Puppet Purple Wheel">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiProjs</File>
+         <Index>0x76</Index>
+      </Texture>
+      <Rotation>100</Rotation>
+   </Object>
+   <Object type="0xa22e" id="Puppet Red Wheel">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiProjs</File>
+         <Index>0x77</Index>
+      </Texture>
+      <Rotation>100</Rotation>
+   </Object>
+   <Object type="0xa22f" id="Puppet Green Wheel">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiProjs</File>
+         <Index>0x78</Index>
+      </Texture>
+      <Rotation>100</Rotation>
+   </Object>
+   <Object type="0xa230" id="Scutum Wave">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x2e</Index>
+      </Texture>
+      <AngleCorrection>3</AngleCorrection>
+   </Object>
+   <Object type="0xa231" id="Indigo Dark Arrow">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiProjs</File>
+         <Index>0x79</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xa232" id="Dire Blast">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x1c</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0x716e" id="Void Star">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56f</Index>
+      </Texture>
+      <Rotation>80</Rotation>
+   </Object>
+   <Object type="0x11e" id="TH Stinger Large">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x58D</Index>
+      </Texture>
+   </Object>
+   <Object type="0x11f" id="TH Stinger Small">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x58C</Index>
+      </Texture>
+   </Object>
+   <Object type="0xa233" id="TH Honey Daze">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x596</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xa234" id="Pumpkin Wave">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiProjs</File>
+         <Index>0x7b</Index>
+      </Texture>
+      <AngleCorrection>3</AngleCorrection>
+   </Object>
+   <Object type="0xa235" id="Bonegrind Cleaver">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiProjs</File>
+         <Index>0x7c</Index>
+      </Texture>
+      <Rotation>100</Rotation>
+   </Object>
 </Objects>

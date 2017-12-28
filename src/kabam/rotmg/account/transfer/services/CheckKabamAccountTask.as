@@ -44,7 +44,7 @@ public class CheckKabamAccountTask extends BaseTask {
     }
 
     private function onChangeDone():void {
-        this.account.updateUser(this.data.newEmail, this.data.newPassword);
+        this.account.updateUser(this.data.newEmail, this.data.newPassword, "");
         completeTask(true);
     }
 

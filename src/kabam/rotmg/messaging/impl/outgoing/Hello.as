@@ -17,6 +17,7 @@ public class Hello extends OutgoingMessage {
     public var gameNetUserId:String = "";
     public var playPlatform:String = "";
     public var platformToken:String = "";
+    public var userToken:String = "";
 
     public function Hello(_arg_1:uint, _arg_2:Function) {
         this.buildVersion_ = new String();
@@ -46,6 +47,7 @@ public class Hello extends OutgoingMessage {
         _arg_1.writeUTF(this.gameNetUserId);
         _arg_1.writeUTF(this.playPlatform);
         _arg_1.writeUTF(this.platformToken);
+        _arg_1.writeUTF(this.userToken);
     }
 
     override public function toString():String {

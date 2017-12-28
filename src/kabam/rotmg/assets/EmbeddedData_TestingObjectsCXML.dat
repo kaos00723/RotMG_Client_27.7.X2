@@ -5,10 +5,18 @@
       <DisplayId>Oryx the Mad God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
-      <Texture>
-         <File>lofiChar16x16</File>
-         <Index>0x54</Index>
-      </Texture>
+      <AnimatedTexture>
+         <File>d3Chars16x16rEmbed</File>
+         <Index>0x07</Index>
+         <Right/>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>d3Chars16x16rEmbed</File>
+            <Index>0x06</Index>
+            <Right/>
+         </AnimatedTexture>
+      </AltTexture>
       <HitSound>monster/oryx_hit</HitSound>
       <DeathSound>monster/oryx_death</DeathSound>
       <Size>120</Size>

@@ -967,6 +967,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
         _local_2.gameNetUserId = _local_1.gameNetworkUserId();
         _local_2.playPlatform = _local_1.playPlatform();
         _local_2.platformToken = _local_1.getPlatformToken();
+        _local_2.userToken = _local_1.getToken()
         serverConnection.sendMessage(_local_2);
     }
 

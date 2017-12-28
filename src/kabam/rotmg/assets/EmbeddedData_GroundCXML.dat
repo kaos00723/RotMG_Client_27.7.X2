@@ -3709,4 +3709,103 @@
       <MinDamage>70</MinDamage>
       <MaxDamage>80</MaxDamage>
    </Ground>
+   <Ground type="0x259a" id="DS Floor Tile">
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x567</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0x259b" id="DS Sludge Tile">
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x568</Index>
+      </Texture>
+      <Animate dy="-0.5">Flow</Animate>
+      <Speed>0.7</Speed>
+      <Sink/>
+   </Ground>
+   <Ground type="0x259c" id="DS Sludge Tile sn">
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x568</Index>
+      </Texture>
+      <Animate dy="0.5">Flow</Animate>
+      <Speed>0.7</Speed>
+      <Sink/>
+   </Ground>
+   <Ground type="0x259d" id="DS Sludge Tile ew">
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x568</Index>
+      </Texture>
+      <Animate dx="0.5">Flow</Animate>
+      <Speed>0.7</Speed>
+      <Sink/>
+   </Ground>
+   <Ground type="0x259e" id="DS Sludge Tile we">
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x568</Index>
+      </Texture>
+      <Animate dx="-0.5">Flow</Animate>
+      <Speed>0.7</Speed>
+      <Sink/>
+   </Ground>
+   <Ground type="0x259f" id="TH Honey">
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x586</Index>
+      </Texture>
+      <Animate dy="0.2" dx="0.2">Flow</Animate>
+      <Speed>0.75</Speed>
+      <BlendPriority>7</BlendPriority>
+      <Sinking/>
+   </Ground>
+   <Ground type="0x25a0" id="TH Floor">
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x587</Index>
+      </Texture>
+      <BlendPriority>3</BlendPriority>
+   </Ground>
+   <Ground type="0x58a" id="Encore EB TL">
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x55</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0x58b" id="Encore EB TR">
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x55</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0x58c" id="Encore EB BR">
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x55</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0x58d" id="Encore EB BL">
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x55</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0x58e" id="Puppet Wood Tile">
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x3d</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0x1f0" id="Blood Water">
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x163</Index>
+      </Texture>
+      <Sink/>
+      <Speed>0.6</Speed>
+      <Animate dx=".4" dy=".4">Wave</Animate>
+      <BlendPriority>-10</BlendPriority>
+   </Ground>
 </GroundTypes>

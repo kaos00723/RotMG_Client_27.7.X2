@@ -1237,6 +1237,17 @@
       <NoMiniMap/>
       <DisplayId>{tombOfTheAncients.Deactivated_Tomb_Bomb_Trap}</DisplayId>
    </Object>
+   <Object type="0x0d0f" id="Deactivated Tomb Bomb Trap Switch">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiChar28x8</File>
+         <Index>0x91</Index>
+      </Texture>
+      <Size>100</Size>
+      <DrawOnGround/>
+      <NoMiniMap/>
+      <DisplayId>{tombOfTheAncients.Deactivated_Tomb_Bomb_Trap_Switch}</DisplayId>
+   </Object>
    <Object type="0x0d3a" id="Eagle Sentry">
       <Group>Tomb Gang</Group>
       <Enemy/>

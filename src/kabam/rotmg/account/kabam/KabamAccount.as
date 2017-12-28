@@ -32,7 +32,7 @@ public class KabamAccount implements Account {
         }
     }
 
-    public function updateUser(_arg_1:String, _arg_2:String):void {
+    public function updateUser(_arg_1:String, _arg_2:String, _arg_3:String):void {
         this.userId = _arg_1;
         this.password = _arg_2;
     }
@@ -128,6 +128,10 @@ public class KabamAccount implements Account {
 
     public function getMoneyUserId():String {
         return (this.gameNetworkUserId());
+    }
+
+    public function getToken():String {
+        return ("");
     }
 
 

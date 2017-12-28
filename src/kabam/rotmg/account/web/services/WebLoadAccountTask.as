@@ -46,13 +46,13 @@ public class WebLoadAccountTask extends BaseTask implements LoadAccountTask {
     }
 
     private function setAccountDataThenComplete():void {
-        this.account.updateUser(this.data.username, this.data.password);
+        this.account.updateUser(this.data.username, this.data.password, this.data.token);
         this.account.verify(false);
         completeTask(true);
     }
 
     private function setGuestPasswordAndComplete():void {
-        this.account.updateUser(GUID.create(), null);
+        this.account.updateUser(GUID.create(), null, "");
         completeTask(true);
     }
 

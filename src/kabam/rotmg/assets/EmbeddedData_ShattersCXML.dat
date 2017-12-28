@@ -677,7 +677,7 @@
       <Size>150</Size>
       <MaxHitPoints>25000</MaxHitPoints>
       <Defense>60</Defense>
-      <XpMult>0.5</XpMult>
+      <XpMult>0.6</XpMult>
       <StasisImmune/>
       <StunImmune/>
       <ParalyzeImmune/>
@@ -694,7 +694,7 @@
       <Size>150</Size>
       <MaxHitPoints>30000</MaxHitPoints>
       <Defense>65</Defense>
-      <XpMult>0.5</XpMult>
+      <XpMult>0.6</XpMult>
       <StasisImmune/>
       <StunImmune/>
       <ParalyzeImmune/>
@@ -735,7 +735,7 @@
       <Size>125</Size>
       <MaxHitPoints>10000</MaxHitPoints>
       <Defense>25</Defense>
-      <XpMult>0.2</XpMult>
+      <XpMult>0.4</XpMult>
       <StunImmune/>
       <Projectile id="0">
          <ObjectId>Ice Bullet</ObjectId>
@@ -829,7 +829,7 @@
       </Projectile>
       <Projectile id="1">
          <ObjectId>Directed Explosion</ObjectId>
-         <Damage>50</Damage>
+         <Damage>85</Damage>
          <Speed>40</Speed>
          <LifetimeMS>1500</LifetimeMS>
       </Projectile>
@@ -846,7 +846,7 @@
       <Size>125</Size>
       <MaxHitPoints>10000</MaxHitPoints>
       <Defense>25</Defense>
-      <XpMult>0.2</XpMult>
+      <XpMult>0.4</XpMult>
       <ParalyzeImmune/>
       <Projectile id="0">
          <ObjectId>Fire Bullet</ObjectId>
@@ -928,8 +928,7 @@
       <Projectile id="1">
          <ObjectId>Grey Missile</ObjectId>
          <Speed>50</Speed>
-         <MinDamage>70</MinDamage>
-         <MaxDamage>90</MaxDamage>
+         <Damage>110</Damage>
          <LifetimeMS>5000</LifetimeMS>
          <Amplitude>1</Amplitude>
          <Frequency>3</Frequency>
@@ -1215,6 +1214,14 @@
          <ObjectId>White Bullet</ObjectId>
          <Damage>250</Damage>
          <Speed>40</Speed>
+         <Size>120</Size>
+         <LifetimeMS>5000</LifetimeMS>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Large White Bullet</ObjectId>
+         <Damage>250</Damage>
+         <Speed>40</Speed>
+         <Size>120</Size>
          <LifetimeMS>5000</LifetimeMS>
       </Projectile>
       <Projectile id="1">
@@ -1715,7 +1722,7 @@
       <Defense>10</Defense>
       <XpMult>0.0</XpMult>
       <Projectile id="0">
-         <ObjectId>White Bullet</ObjectId>
+         <ObjectId>Ice Bullet</ObjectId>
          <Speed>30</Speed>
          <Damage>150</Damage>
          <LifetimeMS>6000</LifetimeMS>
@@ -1745,6 +1752,7 @@
       </Projectile>
    </Object>
    <Object type="0x731c" id="shtrs The Cursed Crown">
+      <DisplayId>{shatters.shtrs_The_Cursed_Crown}</DisplayId>
       <Class>Character</Class>
       <Group>Stone Monster</Group>
       <Enemy/>
@@ -1763,10 +1771,10 @@
          </AnimatedTexture>
       </AltTexture>
       <AltTexture id="2">
-         <AnimatedTexture>
-            <File>chars16x16dEncounters2</File>
-            <Index>84</Index>
-         </AnimatedTexture>
+         <Texture>
+            <File>d1lofiObjBig</File>
+            <Index>0x18</Index>
+         </Texture>
          <Effect particle="SwirlingMist" cooldown="0.5">XMLEffect</Effect>
       </AltTexture>
       <AltTexture id="3">
@@ -1796,7 +1804,13 @@
             <Index>81</Index>
          </AnimatedTexture>
       </AltTexture>
-      <DisplayId>{shatters.shtrs_The_Cursed_Crown}</DisplayId>
+      <AltTexture id="7">
+         <Texture>
+            <File>d1lofiObjBig</File>
+            <Index>0x19</Index>
+         </Texture>
+         <Effect particle="SwirlingMist" cooldown="0.5">XMLEffect</Effect>
+      </AltTexture>
    </Object>
    <Object type="0x731e" id="shtrs Green Crystal">
       <DisplayId>{shatters.shtrs_Green_Crystal}</DisplayId>
@@ -1902,6 +1916,7 @@
       <DisplayId>{shatters.shtrs_Final_Mediator_Lava}</DisplayId>
    </Object>
    <Object type="0x732f" id="shtrs Laser1">
+      <DisplayId>{shatters.shtrs_Laser1}</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1918,9 +1933,9 @@
          <Damage>200</Damage>
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shatters.shtrs_Laser1}</DisplayId>
    </Object>
    <Object type="0x733a" id="shtrs Laser2">
+      <DisplayId>{shatters.shtrs_Laser2}</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1937,9 +1952,9 @@
          <Damage>200</Damage>
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shatters.shtrs_Laser2}</DisplayId>
    </Object>
    <Object type="0x733b" id="shtrs Laser3">
+      <DisplayId>{shatters.shtrs_Laser3}</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1956,9 +1971,9 @@
          <Damage>200</Damage>
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shatters.shtrs_Laser3}</DisplayId>
    </Object>
    <Object type="0x733c" id="shtrs Laser4">
+      <DisplayId>{shatters.shtrs_Laser4}</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1975,9 +1990,9 @@
          <Damage>200</Damage>
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shatters.shtrs_Laser4}</DisplayId>
    </Object>
    <Object type="0x733d" id="shtrs Laser5">
+      <DisplayId>{shatters.shtrs_Laser5}</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1994,9 +2009,9 @@
          <Damage>200</Damage>
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shatters.shtrs_Laser5}</DisplayId>
    </Object>
    <Object type="0x733e" id="shtrs Laser6">
+      <DisplayId>{shatters.shtrs_Laser6}</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -2013,7 +2028,6 @@
          <Damage>200</Damage>
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shatters.shtrs_Laser6}</DisplayId>
    </Object>
    <Object type="0x733f" id="shtrs Lava Souls">
       <DisplayId>{shatters.shtrs_Lava_Souls}</DisplayId>
@@ -2134,7 +2148,6 @@
    </Object>
    <Object type="0x7380" id="shtrs Pause Watcher">
       <Class>Character</Class>
-      <Enemy/>
       <Texture>
          <File>invisible</File>
          <Index>0</Index>

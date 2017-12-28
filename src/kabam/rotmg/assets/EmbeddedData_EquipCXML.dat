@@ -3986,6 +3986,7 @@
       <Consumable/>
       <Soulbound/>
       <BagType>4</BagType>
+      <feedPower>2000</feedPower>
       <DisplayId>{equip.Olive_Gladiator_Skin}</DisplayId>
    </Object>
    <Object type="0x1562" id="Ivory Gladiator Skin">
@@ -4001,6 +4002,7 @@
       <Consumable/>
       <Soulbound/>
       <BagType>4</BagType>
+      <feedPower>2000</feedPower>
       <DisplayId>{equip.Ivory_Gladiator_Skin}</DisplayId>
    </Object>
    <Object type="0x1563" id="Rosen Blade Skin">
@@ -4016,9 +4018,10 @@
       <Consumable/>
       <Soulbound/>
       <BagType>4</BagType>
+      <feedPower>2000</feedPower>
       <DisplayId>{equip.Rosen_Blade_Skin}</DisplayId>
    </Object>
-   <Object type="0x1564" id="Ginja Skin">
+   <Object type="0x1564" id="Djinja Skin">
       <Class>Equipment</Class>
       <Item/>
       <AnimatedTexture>
@@ -4026,12 +4029,205 @@
          <Index>09</Index>
       </AnimatedTexture>
       <SlotType>10</SlotType>
-      <Description>{equip.Customize_your_Ninja_with_the_Ginja_Skin.}</Description>
+      <Description>{equip.Customize_your_Ninja_with_the_Djinja_Skin.}</Description>
       <Activate skinType="1030">UnlockSkin</Activate>
       <Consumable/>
       <Soulbound/>
       <BagType>4</BagType>
-      <DisplayId>{equip.Ginja_Skin}</DisplayId>
+      <feedPower>2000</feedPower>
+      <DisplayId>{equip.Djinja_Skin}</DisplayId>
+   </Object>
+   <Object type="0x1580" id="Baby Djinja Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>102</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Ninja_with_the_Baby_Djinja_Skin.}</Description>
+      <Activate skinType="29840">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>5000</feedPower>
+      <DisplayId>{equip.Baby_Djinja_Skin}</DisplayId>
+   </Object>
+   <Object type="0x2580" id="Mini Rosen Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>103</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Ninja_with_the_Mini_Rosen_Skin.}</Description>
+      <Activate skinType="29841">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>5000</feedPower>
+      <DisplayId>{equip.Mini_Rosen_Skin}</DisplayId>
+   </Object>
+   <Object type="0x2581" id="Mini Geb Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>98</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Priest_with_the_Mini_Geb_Skin.}</Description>
+      <Activate skinType="29842">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>5000</feedPower>
+      <DisplayId>{equip.Mini_Geb_Skin}</DisplayId>
+   </Object>
+   <Object type="0x2582" id="Mini Skuld Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>99</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Rogue_with_the_Mini_Skuld_Skin.}</Description>
+      <Activate skinType="29843">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>5000</feedPower>
+      <DisplayId>{equip.Mini_Skuld_Skin}</DisplayId>
+   </Object>
+   <Object type="0x2583" id="Mini Oryx Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>95</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Knight_with_the_Mini_Oryx_Skin.}</Description>
+      <Activate skinType="29847">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>5000</feedPower>
+      <DisplayId>{equip.Mini_Oryx_Skin}</DisplayId>
+   </Object>
+   <Object type="0x2584" id="Mini Swoll Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>97</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Paladin_with_the_Mini_Swoll_Skin.}</Description>
+      <Activate skinType="29845">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>5000</feedPower>
+      <DisplayId>{equip.Mini_Swoll_Skin}</DisplayId>
+   </Object>
+   <Object type="0x2585" id="Mini Twilight Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>100</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Wizard_with_the_Mini_Twilight_Skin.}</Description>
+      <Activate skinType="29844">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>5000</feedPower>
+      <DisplayId>{equip.Mini_Twilight_Skin}</DisplayId>
+   </Object>
+   <Object type="0x2586" id="Mini Phylactery Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>96</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Mystic_with_the_Mini_Phylactery_Skin.}</Description>
+      <Activate skinType="29846">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>5000</feedPower>
+      <DisplayId>{equip.Mini_Phylactery_Skin}</DisplayId>
+   </Object>
+   <Object type="0x2587" id="Mini Thessal Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>94</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Huntress_with_the_Mini_Thessal_Skin.}</Description>
+      <Activate skinType="29848">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>5000</feedPower>
+      <DisplayId>{equip.Mini_Thessal_Skin}</DisplayId>
+   </Object>
+   <Object type="0x2588" id="Slurp Knight Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>107</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Knight_with_the_Slurp_Knight_Skin.}</Description>
+      <Activate skinType="2521">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>5000</feedPower>
+      <DisplayId>{equip.Slurp_Knight_Skin}</DisplayId>
+   </Object>
+   <Object type="0x7fff" id="Vampire Lord Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>108</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Necromancer_with_the_Vampire_Lord_Skin.}</Description>
+      <Activate skinType="32766">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>5000</feedPower>
+      <DisplayId>{equip.Vampire_Lord_Skin}</DisplayId>
+   </Object>
+   <Object type="0x7f8f" id="Headless Rider Skin">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>109</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Customize_your_Paladin_with_the_Headless_Rider_Skin.}</Description>
+      <Activate skinType="32654">UnlockSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <feedPower>750</feedPower>
+      <DisplayId>{equip.Headless_Rider_Skin}</DisplayId>
    </Object>
    <Object type="0xab0" id="Minor Health Potion">
       <Class>Equipment</Class>
@@ -8580,21 +8776,21 @@
       <Class>Equipment</Class>
       <Item/>
       <Texture>
-         <File>lofiObj2</File>
-         <Index>0xf8</Index>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x46</Index>
       </Texture>
       <SlotType>9</SlotType>
       <Soulbound/>
-      <Description>{equip.An_amulet_that_provides_helpful_benefits_at_the_cost_of_rai}</Description>
-      <Resurrects/>
+      <Description>{equip.A_historical_amulet_that_has_been_passed_down_for_generatio}</Description>
       <ActivateOnEquip stat="20" amount="1">IncrementStat</ActivateOnEquip>
       <ActivateOnEquip stat="21" amount="1">IncrementStat</ActivateOnEquip>
       <ActivateOnEquip stat="22" amount="1">IncrementStat</ActivateOnEquip>
       <ActivateOnEquip stat="26" amount="1">IncrementStat</ActivateOnEquip>
       <ActivateOnEquip stat="27" amount="1">IncrementStat</ActivateOnEquip>
       <ActivateOnEquip stat="28" amount="1">IncrementStat</ActivateOnEquip>
-      <ActivateOnEquip stat="0" amount="20">IncrementStat</ActivateOnEquip>
-      <ActivateOnEquip stat="3" amount="20">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="0" amount="30">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="30">IncrementStat</ActivateOnEquip>
+      <FameBonus>3</FameBonus>
       <BagType>4</BagType>
       <feedPower>500</feedPower>
    </Object>
@@ -8636,6 +8832,7 @@
       <Soulbound/>
       <Activate id="Undead Lair Portal">Create</Activate>
       <feedPower>200</feedPower>
+      <Track/>
       <DisplayId>{equip.Undead_Lair_Key}</DisplayId>
    </Object>
    <Object type="0x705" id="Pirate Cave Key">
@@ -8652,6 +8849,7 @@
       <Soulbound/>
       <Activate id="Pirate Cave Portal">Create</Activate>
       <feedPower>40</feedPower>
+      <Track/>
       <DisplayId>{equip.Pirate_Cave_Key}</DisplayId>
    </Object>
    <Object type="0x706" id="Spider Den Key">
@@ -8668,6 +8866,7 @@
       <Soulbound/>
       <Activate id="Spider Den Portal">Create</Activate>
       <feedPower>130</feedPower>
+      <Track/>
       <DisplayId>{equip.Spider_Den_Key}</DisplayId>
    </Object>
    <Object type="0x70a" id="Abyss of Demons Key">
@@ -8701,6 +8900,7 @@
       <Soulbound/>
       <Activate id="Snake Pit Portal">Create</Activate>
       <feedPower>165</feedPower>
+      <Track/>
       <DisplayId>{equip.Snake_Pit_Key}</DisplayId>
    </Object>
    <Object type="0x710" id="Tomb of the Ancients Key">
@@ -8717,6 +8917,7 @@
       <Soulbound/>
       <Activate id="Tomb of the Ancients Portal">Create</Activate>
       <feedPower>350</feedPower>
+      <Track/>
       <DisplayId>{equip.Tomb_of_the_Ancients_Key}</DisplayId>
    </Object>
    <Object type="0x769" id="Tomb of the Ancients (Heroic) Key">
@@ -8733,6 +8934,7 @@
       <Soulbound/>
       <Activate id="Tomb of the Ancients Portal (Heroic)">Create</Activate>
       <feedPower>350</feedPower>
+      <Track/>
       <DisplayId>{equip.Tomb_of_the_Ancients_(Heroic)_Key}</DisplayId>
    </Object>
    <Object type="0x71f" id="Sprite World Key">
@@ -8749,6 +8951,7 @@
       <Soulbound/>
       <Activate id="Glowing Portal">Create</Activate>
       <feedPower>135</feedPower>
+      <Track/>
       <DisplayId>{equip.Sprite_World_Key}</DisplayId>
    </Object>
    <Object type="0x722" id="Wine Cellar Incantation">
@@ -8765,6 +8968,7 @@
       <BagType>4</BagType>
       <Activate dungeonName="Wine Cellar" lockedName="Locked Wine Cellar Portal">UnlockPortal</Activate>
       <feedPower>500</feedPower>
+      <Track/>
       <DisplayId>{equip.Wine_Cellar_Incantation}</DisplayId>
    </Object>
    <Object type="0xc11" id="Ocean Trench Key">
@@ -8797,6 +9001,7 @@
       <Consumable/>
       <Soulbound/>
       <Activate id="Battle Nexus Portal">Create</Activate>
+      <Track/>
       <DisplayId>{equip.Battle_Nexus_Key}</DisplayId>
    </Object>
    <Object type="0xc12" id="Coral Juice">
@@ -8947,6 +9152,7 @@
       <Soulbound/>
       <Activate id="Forbidden Jungle Portal">Create</Activate>
       <feedPower>145</feedPower>
+      <Track/>
       <DisplayId>{equip.Totem_Key}</DisplayId>
    </Object>
    <Object type="0x748C" id="Ice Cave Key">
@@ -8963,6 +9169,7 @@
       <Soulbound/>
       <Activate id="Ice Cave Portal">Create</Activate>
       <feedPower>145</feedPower>
+      <Track/>
       <DisplayId>{equip.Ice_Cave_Key}</DisplayId>
    </Object>
    <Object type="0xc1a" id="Pollen Powder">
@@ -8990,23 +9197,25 @@
          <Index>0x1a</Index>
       </Texture>
       <SlotType>3</SlotType>
-      <Description>{equip.A_deadly_mechanical_bow_and_a_marvel_of_technology.}</Description>
-      <RateOfFire>2.5</RateOfFire>
+      <Description>{equip.A_deadly_repeater_crossbow_and_a_marvel_of_craftsmanship._T}</Description>
+      <RateOfFire>2</RateOfFire>
       <Soulbound/>
       <Sound>weapon/heavy_crossbow</Sound>
       <Projectile>
          <ObjectId>Thousand Shot Arrow</ObjectId>
-         <Speed>180</Speed>
-         <MinDamage>50</MinDamage>
-         <MaxDamage>70</MaxDamage>
-         <LifetimeMS>400</LifetimeMS>
+         <Speed>165</Speed>
+         <MinDamage>40</MinDamage>
+         <MaxDamage>130</MaxDamage>
+         <LifetimeMS>460</LifetimeMS>
          <MultiHit/>
       </Projectile>
+      <ActivateOnEquip stat="22" amount="-5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="30">IncrementStat</ActivateOnEquip>
       <BagType>6</BagType>
       <FameBonus>6</FameBonus>
       <NumProjectiles>1</NumProjectiles>
       <OldSound>arrowShoot</OldSound>
-      <feedPower>0</feedPower>
+      <feedPower>900</feedPower>
       <Soulbound/>
       <DisplayId>{equip.Thousand_Shot}</DisplayId>
    </Object>
@@ -9421,6 +9630,7 @@
       <Soulbound/>
       <Activate id="Davy Jones' Locker Portal">Create</Activate>
       <feedPower>230</feedPower>
+      <Track/>
       <DisplayId>{equip.DavyAPOSs_Key}</DisplayId>
    </Object>
    <Object type="0xc30" id="Scepter of Fulmination">
@@ -9703,6 +9913,7 @@
       <Soulbound/>
       <Activate id="Beachzone Portal">Create</Activate>
       <feedPower>300</feedPower>
+      <Track/>
       <DisplayId>{equip.Beachzone_Key}</DisplayId>
    </Object>
    <Object type="0xc3e" id="Gold Medal">
@@ -10935,7 +11146,24 @@
       <Soulbound/>
       <Activate id="Haunted Cemetery Portal">Create</Activate>
       <feedPower>230</feedPower>
+      <Track/>
       <DisplayId>{equip.Cemetery_Key}</DisplayId>
+   </Object>
+   <Object type="0x134" id="Halloween Cemetery Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59c</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{equip.A_key_which_opens_a_portal_to_the_Halloween_Cemetery.}</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="Halloween Cemetery Portal">Create</Activate>
+      <feedPower>230</feedPower>
+      <DisplayId>{equip.Halloween_Cemetery_Key}</DisplayId>
    </Object>
    <Object type="0xc70" id="Golden Ankh">
       <Class>Equipment</Class>
@@ -11683,6 +11911,7 @@
       <Soulbound/>
       <Activate id="Forest Maze Portal">Create</Activate>
       <feedPower>115</feedPower>
+      <Track/>
       <DisplayId>{equip.Forest_Maze_Key}</DisplayId>
    </Object>
    <Object type="0xccf" id="Woodland Labyrinth Key">
@@ -11699,6 +11928,7 @@
       <Soulbound/>
       <Activate id="Woodland Labyrinth">Create</Activate>
       <feedPower>270</feedPower>
+      <Track/>
       <DisplayId>{equip.Woodland_Labyrinth_Key}</DisplayId>
    </Object>
    <Object type="0xcce" id="Deadwater Docks Key">
@@ -11715,6 +11945,7 @@
       <Soulbound/>
       <Activate id="Deadwater Docks">Create</Activate>
       <feedPower>270</feedPower>
+      <Track/>
       <DisplayId>{equip.Deadwater_Docks_Key}</DisplayId>
    </Object>
    <Object type="0xcda" id="The Crawling Depths Key">
@@ -11731,6 +11962,7 @@
       <Soulbound/>
       <Activate id="The Crawling Depths">Create</Activate>
       <feedPower>270</feedPower>
+      <Track/>
       <DisplayId>{equip.The_Crawling_Depths_Key}</DisplayId>
    </Object>
    <Object type="0xcdd" id="Shatters Key">
@@ -12023,6 +12255,7 @@
          <Index>0x458</Index>
       </Texture>
       <SlotType>1</SlotType>
+      <Tier>11</Tier>
       <Description>{equip.An_unfathomably_powerful_sword_that_absorbs_the_skulls_of_e}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/mithril_sword</Sound>
@@ -12519,6 +12752,7 @@
       <Consumable/>
       <Soulbound/>
       <Activate id="Belladonna's Garden Portal">Create</Activate>
+      <Track/>
       <DisplayId>{equip.BellaAPOSs_Key}</DisplayId>
    </Object>
    <Object type="0x2292" id="Slime Wizard Skin">
@@ -13303,6 +13537,7 @@
       <Consumable/>
       <Soulbound/>
       <Activate id="Puppet Theatre Portal">Create</Activate>
+      <Track/>
       <DisplayId>{equip.Theatre_Key}</DisplayId>
    </Object>
    <Object type="0x234E" id="Slime Assassin Skin">
@@ -13557,6 +13792,7 @@
          <Index>0x500</Index>
       </Texture>
       <SlotType>8</SlotType>
+      <Tier>11</Tier>
       <Description>{equip.This_wand_has_been_used_countless_times_to_raise_Lord_Ruthv}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/wand_of_death</Sound>
@@ -13573,7 +13809,6 @@
       <FameBonus>3</FameBonus>
       <OldSound>magicShoot</OldSound>
       <feedPower>310</feedPower>
-      <Soulbound/>
       <DisplayId>{equip.Wand_of_Ancient_Terror}</DisplayId>
    </Object>
    <Object type="0xf11" id="Dagger of the Terrible Talon">
@@ -13584,6 +13819,7 @@
          <Index>0x501</Index>
       </Texture>
       <SlotType>2</SlotType>
+      <Tier>11</Tier>
       <Description>{equip.A_claw-shard_from_Feargus,_the_Obsidian_Dragon.}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/fire_dagger</Sound>
@@ -13598,7 +13834,6 @@
       <FameBonus>3</FameBonus>
       <OldSound>daggerSwing</OldSound>
       <feedPower>310</feedPower>
-      <Soulbound/>
       <DisplayId>{equip.Dagger_of_the_Terrible_Talon}</DisplayId>
    </Object>
    <Object type="0xf12" id="Bow of Nightmares">
@@ -13609,6 +13844,7 @@
          <Index>0x502</Index>
       </Texture>
       <SlotType>3</SlotType>
+      <Tier>11</Tier>
       <Description>{equip.You_can_hear_the_screams_of_tortured_souls_as_you_draw_this}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/golden_bow</Sound>
@@ -13626,7 +13862,6 @@
       <NumProjectiles>3</NumProjectiles>
       <OldSound>arrowShoot</OldSound>
       <feedPower>310</feedPower>
-      <Soulbound/>
       <DisplayId>{equip.Bow_of_Nightmares}</DisplayId>
    </Object>
    <Object type="0xf13" id="Staff of Horrific Knowledge">
@@ -13637,6 +13872,7 @@
          <Index>0x503</Index>
       </Texture>
       <SlotType>17</SlotType>
+      <Tier>11</Tier>
       <Description>{equip.It_seems_to_dispense_special_runes_upon_use._Perhaps...some}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/wand_of_death</Sound>
@@ -13656,7 +13892,6 @@
       <ArcGap>0</ArcGap>
       <OldSound>magicShoot</OldSound>
       <feedPower>310</feedPower>
-      <Soulbound/>
       <DisplayId>{equip.Staff_of_Horrific_Knowledge}</DisplayId>
    </Object>
    <Object type="0xf14" id="Corrupted Cleaver">
@@ -13667,6 +13902,7 @@
          <Index>0x504</Index>
       </Texture>
       <SlotType>24</SlotType>
+      <Tier>11</Tier>
       <Description>{equip.This_blade_is_drenched_in_the_blood_of_heroes._Are_you_sure}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/long_sword</Sound>
@@ -13683,7 +13919,6 @@
       <FameBonus>3</FameBonus>
       <OldSound>bladeSwing</OldSound>
       <feedPower>310</feedPower>
-      <Soulbound/>
       <DisplayId>{equip.Corrupted_Cleaver}</DisplayId>
    </Object>
    <Object type="0x2368" id="Greater Potion of Attack">
@@ -14102,7 +14337,8 @@
       <Consumable/>
       <Soulbound/>
       <Activate id="Puppet Encore Portal">Create</Activate>
-      <feedPower>200</feedPower>
+      <feedPower>350</feedPower>
+      <Track/>
       <DisplayId>{equip.Puppet_MasterAPOSs_Encore_Key}</DisplayId>
    </Object>
    <Object type="0x766" id="Staff of Esben">
@@ -14167,7 +14403,7 @@
          <Index>0x50D</Index>
       </Texture>
       <SlotType>14</SlotType>
-      <Description>{equip.A_ceremonial_garment_worn_by_those_who_whorship_the_god_Geb}</Description>
+      <Description>{equip.A_ceremonial_garment_worn_by_those_who_worship_the_god_Geb.}</Description>
       <ActivateOnEquip stat="0" amount="25">IncrementStat</ActivateOnEquip>
       <ActivateOnEquip stat="3" amount="25">IncrementStat</ActivateOnEquip>
       <ActivateOnEquip stat="26" amount="7">IncrementStat</ActivateOnEquip>
@@ -14319,7 +14555,7 @@
       <SlotType>17</SlotType>
       <Description>{equip.I_was_a_fool_before,_but_now_everything_is_so_clear._The_ph}</Description>
       <RateOfFire>0.8</RateOfFire>
-      <Sound>weapon/mithril_sword</Sound>
+      <Sound>weapon/wand_of_death</Sound>
       <Projectile>
          <ObjectId>Soul Orb</ObjectId>
          <Speed>160</Speed>
@@ -14609,7 +14845,6 @@
          <Index>0x491</Index>
       </Texture>
       <SlotType>3</SlotType>
-      <Tier>11</Tier>
       <Description>{equip.You_are_not_a_unique_snowflake._YouAPOSre_like_one_of_five_}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/golden_bow</Sound>
@@ -14637,7 +14872,6 @@
          <Index>0x492</Index>
       </Texture>
       <SlotType>1</SlotType>
-      <Tier>11</Tier>
       <Description>{equip.So_hot,_itAPOSs_cool._The_unique_combo_of_hot_and_cold_elem}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/mithril_sword</Sound>
@@ -14662,7 +14896,6 @@
          <Index>0x55a</Index>
       </Texture>
       <SlotType>8</SlotType>
-      <Tier>11</Tier>
       <Description>{equip.How_else_would_the_minions_of_Oryx_get_their_gifts?_Thanks_}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/wand_of_death</Sound>
@@ -14688,7 +14921,6 @@
          <Index>0x558</Index>
       </Texture>
       <SlotType>2</SlotType>
-      <Tier>11</Tier>
       <Description>{equip.Crude,_but_effective.}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/fire_dagger</Sound>
@@ -14714,7 +14946,6 @@
          <Index>0x55b</Index>
       </Texture>
       <SlotType>17</SlotType>
-      <Tier>11</Tier>
       <Description>{equip.Fa_la_la_la_la,_la_la_la_la.}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/wand_of_death</Sound>
@@ -14743,7 +14974,6 @@
          <Index>0x559</Index>
       </Texture>
       <SlotType>24</SlotType>
-      <Tier>11</Tier>
       <Description>{equip.The_metal_is_icy_cold_to_the_touch_and_delivers_a_biting_st}</Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/long_sword</Sound>
@@ -14821,5 +15051,341 @@
       <Soulbound/>
       <PetFormStone/>
       <DisplayId>{equip.Pet_Form_Stone}</DisplayId>
+   </Object>
+   <Object type="0xcfa" id="Crashy">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>50</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Ready_to_dupe?}</Description>
+      <Activate id="Crash">Create</Activate>
+      <Consumable/>
+      <BagType>1</BagType>
+      <feedPower>50</feedPower>
+      <DisplayId>{equip.Crashy}</DisplayId>
+   </Object>
+   <Object type="0x716b" id="Dank Sewer Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>{equip.Dank_Sewer_Key}</DisplayId>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56d</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{equip.A_key_which_opens_an_entrance_to_the_Dank_Sewer.}</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="Dank Sewer Portal">Create</Activate>
+      <Track/>
+   </Object>
+   <Object type="0x716c" id="Sewer Cocktail">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>{equip.Sewer_Cocktail}</DisplayId>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x570</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Description>{equip.Its_irregular_shape_makes_it_hard_to_get_a_grip_on_this_bur}</Description>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <MpCost>120</MpCost>
+      <Activate radius="6" totalDamage="1352" duration="8">PoisonGrenade</Activate>
+      <Activate effect="Dazed" duration="5">ConditionEffectSelf</Activate>
+      <feedPower>750</feedPower>
+      <Soulbound/>
+   </Object>
+   <Object type="0x716d" id="Void Blade">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56e</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Description>{equip.An_astronomically_heavy_katana._It_is_forged_from_dark_matt}</Description>
+      <RateOfFire>0.3</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Void Star</ObjectId>
+         <Speed>0</Speed>
+         <MinDamage>600</MinDamage>
+         <MaxDamage>700</MaxDamage>
+         <LifetimeMS>4500</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <ActivateOnEquip stat="28" amount="-5">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+      <DisplayId>{equip.Void_Blade}</DisplayId>
+      <feedPower>750</feedPower>
+      <Soulbound/>
+   </Object>
+   <Object type="0x7170" id="Murky Toxin">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>{equip.Murky_Toxin}</DisplayId>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x571</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Description>{equip.A_deadly_substance_concocted_with_ingredients_found_in_the_}</Description>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <MpCost>125</MpCost>
+      <ActivateOnEquip stat="20" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="3">IncrementStat</ActivateOnEquip>
+      <Activate radius="2" totalDamage="900" duration="4">PoisonGrenade</Activate>
+      <Activate radius="4" totalDamage="300" duration="4">PoisonGrenade</Activate>
+      <feedPower>800</feedPower>
+      <Soulbound/>
+   </Object>
+   <Object type="0x23d" id="Toxic Sewers Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>{equip.Toxic_Sewers_Key}</DisplayId>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56d</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{equip.A_key_which_opens_an_entrance_to_the_Toxic_Sewers.}</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="Toxic Sewers Portal">Create</Activate>
+      <feedPower>260</feedPower>
+      <Track/>
+   </Object>
+   <Object type="0x11b" id="The Hive Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>{equip.The_Hive_Key}</DisplayId>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x58b</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{equip.A_key_which_opens_an_entrance_to_The_Hive.}</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="The Hive Portal">Create</Activate>
+      <feedPower>145</feedPower>
+      <Track/>
+   </Object>
+   <Object type="0x11c" id="TH Honey bottle">
+      <DisplayId>{equip.TH_Honey_bottle}</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x58e</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{equip.A_yummy_treat.}</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Activate effect="Healing" duration="10">ConditionEffectSelf</Activate>
+   </Object>
+   <Object type="0x136" id="HoneyScepter">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x597</Index>
+      </Texture>
+      <SlotType>23</SlotType>
+      <Description>{equip.Stolen_from_the_Queen_Bee_herself,_this_scepter_possesses_t}</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>2</FameBonus>
+      <MpCost>90</MpCost>
+      <Activate totalDamage="100" maxTargets="10" color="0xffdf00">Lightning</Activate>
+      <feedPower>450</feedPower>
+      <DisplayId>{equip.HoneyScepter}</DisplayId>
+      <Soulbound/>
+   </Object>
+   <Object type="0x132" id="Orb of Sweet Demise">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x598</Index>
+      </Texture>
+      <SlotType>21</SlotType>
+      <Description>{equip.A_magical_honeycomb_that_was_once_crucial_in_repelling_an_a}</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>2</FameBonus>
+      <MpCost>90</MpCost>
+      <Activate effect="Slowed" duration="5" range="2" color="0xffdf00" target="enemy" center="mouse" visualEffect="8" useWisMod="false">GenericActivate</Activate>
+      <Activate duration="3">StasisBlast</Activate>
+      <feedPower>450</feedPower>
+      <DisplayId>{equip.Orb_of_Sweet_Demise}</DisplayId>
+      <Soulbound/>
+   </Object>
+   <Object type="0x12f" id="Mountain Temple Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>{equip.Mountain_Temple_Key}</DisplayId>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x58b</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{equip.A_key_which_opens_an_entrance_to_The_Mountain_Temple.}</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="Mountain Temple Portal">Create</Activate>
+      <Track/>
+   </Object>
+   <Object type="0x0d41" id="Wooden Box">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x20</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{equip.WhatAPOSs_in_the_box?_Crank_the_handle_and_find_outBANG}</Description>
+      <Consumable/>
+      <BagType>2</BagType>
+      <Activate objectId="Trick in a Box">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <Soulbound/>
+      <feedPower>100</feedPower>
+      <DisplayId>{equip.Wooden_Box}</DisplayId>
+   </Object>
+   <Object type="0x0d42" id="Prism of Dire Instability">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x2c</Index>
+      </Texture>
+      <SlotType>22</SlotType>
+      <Description>{equip.Seemingly_bleak_at_first,_this_prism_has_erratic_magical_pr}</Description>
+      <Projectile>
+         <ObjectId>Dire Blast</ObjectId>
+         <Speed>60</Speed>
+         <MinDamage>200</MinDamage>
+         <MaxDamage>320</MaxDamage>
+         <LifetimeMS>700</LifetimeMS>
+         <Size>80</Size>
+      </Projectile>
+      <ActivateOnEquip stat="20" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="40">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <MpCost>80</MpCost>
+      <Activate duration="3" explode="1" bullet="12">Decoy</Activate>
+      <feedPower>900</feedPower>
+      <Soulbound/>
+      <DisplayId>{equip.Prism_of_Dire_Instability}</DisplayId>
+   </Object>
+   <Object type="0x0d43" id="Spiteful Scutum">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x2d</Index>
+      </Texture>
+      <SlotType>5</SlotType>
+      <Description>{equip.A_shield_from_a_place_beyond_the_gates_of_war_and_peace.}</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Scutum Wave</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>400</MinDamage>
+         <MaxDamage>600</MaxDamage>
+         <LifetimeMS>250</LifetimeMS>
+         <Amplitude>0.2</Amplitude>
+         <Frequency>0.5</Frequency>
+         <Size>120</Size>
+         <ConditionEffect duration="4">Stunned</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ArmorPiercing/>
+         <ParticleTrail lifetimeMS="250">0xb40e0e</ParticleTrail>
+      </Projectile>
+      <ActivateOnEquip stat="20" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="2">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="4">Stunned</ConditionEffect>
+      <Usable/>
+      <ArcGap>8</ArcGap>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <MpCost>90</MpCost>
+      <Activate>Shoot</Activate>
+      <Cooldown>1.5</Cooldown>
+      <NumProjectiles>2</NumProjectiles>
+      <feedPower>800</feedPower>
+      <Soulbound/>
+      <DisplayId>{equip.Spiteful_Scutum}</DisplayId>
+   </Object>
+   <Object type="0x1411" id="Trick White Bag">
+      <DisplayId>{equip.Trick_White_Bag}</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x94</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Because_what_kind_of_monster_would_trick_their_fellows_with}</Description>
+      <Consumable/>
+      <BagType>2</BagType>
+      <Activate objectId="Fake White Bag">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <Soulbound/>
+      <feedPower>100</feedPower>
+   </Object>
+   <Object type="0x7ffd" id="Giant Vampire Bat Pet Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59b</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Transform_your_pet_into_Giant_Vampire_Bat_of_the_Spooky_fam}</Description>
+      <Activate skinId="32763">PetSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <DisplayId>{equip.Giant_Vampire_Bat_Pet_Stone}</DisplayId>
+      <feedPower>5000</feedPower>
+   </Object>
+   <Object type="0x7f8d" id="Pumpkin Head Pet Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x1f</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{equip.Transform_your_pet_into_Pumpkin_Head_of_the_Spooky_family._}</Description>
+      <Activate skinId="32651">PetSkin</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>4</BagType>
+      <DisplayId>{equip.Pumpkin_Head_Pet_Stone}</DisplayId>
+      <feedPower>5000</feedPower>
    </Object>
 </Objects>
